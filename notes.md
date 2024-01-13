@@ -119,7 +119,7 @@ h1 {
 }
 ```
 
-- Hex
+- Hex - Syntax
 
 ```css
 h1 {
@@ -127,6 +127,9 @@ h1 {
   color: #00ff00;
   color: #0000ff;
   color: #feabff;
+  color: rgb(255, 32, 110);
+  color: #41ead4
+
 }
 ```
 
@@ -134,3 +137,44 @@ h1 {
 
 - Search on Google
   - It will generate RGB, CMYK, HSV, HSL and HEX
+
+##### Color Palettes
+
+- [coolors.co](https://coolors.co)
+
+#### Selectors
+
+- Universal Selector
+  - Ye selector pooray webpage par styling apply karta hai
+    - * {} - asterisk selector
+    - Isko ham global selector bhi kehte hain
+- Element Selector
+  - Ye HTML tags par apply hone wale selectors hote hain.
+  - For example: `h1`, `button`, etc
+- Id Selector
+- Class Selector
+
+>Note: CSS main top to bottom styling apply hoti hai. Agar hamne pehle `universal` selector ko styling apply ki hai and then `element` selector ko styling denge tu 'element' selector wali styling ko priority mil jayegi.
+
+- Syntax for note:
+
+```css
+* {
+    color: blue;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+p {
+    color:brown;
+}
+
+button {
+    color:rgb(255, 32, 110);
+    background-color: #ffd449;
+}
+```
+
+>Note: asterisk `* {}` selector styling has been replaced with all selectors.

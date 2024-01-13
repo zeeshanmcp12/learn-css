@@ -1,5 +1,26 @@
-h1 {
+/* h1 {
     background-color: antiquewhite;
     color: black;
     max-width: fit-content;
+}
+
+body {
+    background-color: #ffd449;
+} */
+
+* {
+    color: blue;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+p {
+    color:brown;
+}
+
+button {
+    color:rgb(255, 32, 110);
+    background-color: #ffd449;
 }
