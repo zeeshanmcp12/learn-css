@@ -1,0 +1,16 @@
+
+#box {
+    color: blue;
+    background-color: burlywood;
+    width: fit-content;
+}
+
+.heading {
+    color:red;
+}
+
+
+button {
+    background-color: green;
+    color: white;
+}
