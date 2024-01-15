@@ -16,11 +16,24 @@ h1 {
     color: darkgreen;
 }
 
+#headingOne {
+    color:#ffd449;
+    background-color: black;
+    width: fit-content;
+}
+
 p {
     color:brown;
 }
 
-button {
+/* button {
     color:rgb(255, 32, 110);
     background-color: #ffd449;
+} */
+
+.btn, span {
+    color: black;
+    background-color: lightgrey;
+    height: 25px;
+    width: 60px;
 }

@@ -92,7 +92,7 @@ button {
     - Binary
       - Bin means 2 - These are numbers from 0 and 1 so numbers will be 01011110
     - Decimal
-      - Dec means 10 - These numbers from 0 to 9 so number 10343399 will be a decimal number
+      - Dec means 10 - These numbers from 0 to 9 so number 103 will be a decimal number
     - Hexadecimal
       - Hex means 6
       - Dec means 10
@@ -146,17 +146,15 @@ h1 {
 
 - Universal Selector
   - Ye selector pooray webpage par styling apply karta hai
-    - * {} - asterisk selector
+    - `* {}` - asterisk selector
     - Isko ham global selector bhi kehte hain
 - Element Selector
   - Ye HTML tags par apply hone wale selectors hote hain.
   - For example: `h1`, `button`, etc
-- Id Selector
-- Class Selector
-
->Note: CSS main top to bottom styling apply hoti hai. Agar hamne pehle `universal` selector ko styling apply ki hai and then `element` selector ko styling denge tu 'element' selector wali styling ko priority mil jayegi.
 
 - Syntax for note:
+
+>Note: CSS main top to bottom styling apply hoti hai. Agar hamne pehle `universal` selector par styling apply ki hai and then `element` selector ko styling denge tu 'element' selector wali styling ko priority mil jayegi.
 
 ```css
 * {
@@ -178,3 +176,34 @@ button {
 ```
 
 >Note: asterisk `* {}` selector styling has been replaced with all selectors.
+
+- Id Selector
+  - Is main ham HTML element ko aik 'id' assign kardete hain.
+  - Us element par styling apply karne k liye CSS file main `#<id_name>` k sath style de sakte hain. For example
+  - `#headingOne { color: black}`
+- Syntax:
+
+```html
+<h1 id="headingOne">Heading</h1>
+```
+
+```css
+#headingOne {
+  color : blue;
+}
+```
+
+- Class Selector
+  - Is main bhi ham HTML element ko aik 'class' assign kar dete hain but difference ye hai k agar hamne multiple elements par same styling apply karni ho tu un tamam HTML elements ko signle id assign karna bad practice consider hoga. Is situation ko handle karne k liye ham class use karte hain. For example:
+  - Syntax
+
+```html
+<p class="simplePara">This is simple paragraph.</p>
+<p class="simplePara">This is another paragraph.</p>
+```
+
+```css
+.simplePara {
+  color: magenta
+}
+```
