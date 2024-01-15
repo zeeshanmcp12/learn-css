@@ -37,3 +37,7 @@ p {
     height: 25px;
     width: 60px;
 }
+
+.new-box {
+    border: 2px solid black;
+}

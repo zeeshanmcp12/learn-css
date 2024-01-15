@@ -208,6 +208,15 @@ button {
 }
 ```
 
+- Another method to do styling on multiple elements.
+- Syntax
+
+```css
+h1, h2, h3 {
+  color: lightblue;
+}
+```
+
 ### Practice Set 1 🚀
 
 #### Q1
@@ -228,10 +237,18 @@ button {
   - blue using `<style>` tag
   - pink using inline style
 
+#### Text Properties
+
+- text-align
+  - left, right, center
+- text-align main whole document k hisab se text align nahi hota bal k parent tag k hisab se text align hota hai.s
+
 ## Emmets
 
 - lorem
   - Ye likhne se pora paragraph generate ho jayega jo random words par based karta hoga
+- lorem*10
+  - Is case main lorem wala text 10 times ayega.
 - .myClass
   - Ye likhne se new `div` element create ho jayega jis ko automatically `myClass` name ki class mil jayegi.
 - #myId
