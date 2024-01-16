@@ -249,13 +249,16 @@ h1, h2, h3 {
   - Ye likhne se pora paragraph generate ho jayega jo random words par based karta hoga
 - lorem*10
   - Is case main lorem wala text 10 times ayega.
-- .myClass
+- .myClass - (starting with dot)
   - Ye likhne se new `div` element create ho jayega jis ko automatically `myClass` name ki class mil jayegi.
-- #myId
+- #myId - (starting with hash)
   - Ye likhne se new `div` element create ho jayega jis ko automatically `myId` name ki id mil jayegi.
 - Syntax
 
 ```html
     <div class="new-box"></div>
     <div id="new-id"></div>
+    <div>
+      <p>lorem</p>
+    </div>
 ```
