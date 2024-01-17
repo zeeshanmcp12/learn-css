@@ -15,7 +15,14 @@ body {
 
 h1 {
     color: darkgreen;
-    text-align: center;
+    /* text-align: center; */
+    text-align: start;
+    /* text-align: end; */
+    text-decoration: underline wavy;
+}
+
+a {
+    text-decoration: none;
 }
 
 #headingOne {

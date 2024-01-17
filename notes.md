@@ -239,6 +239,8 @@ h1, h2, h3 {
 
 #### Text Properties
 
+##### Text Align
+
 - text-align
   - left, right, center
 - text by default left-align hota hai.
@@ -267,6 +269,54 @@ text-align: center;
     width: 460px;
 }
 ```
+
+- CSS3 main `text-align` k liye 2 new properties introduce hoi hain.
+  - `start` - the function of this property is same as `left`
+  - `end` - the function this property is same as `right`
+
+##### Text Decoration
+
+- `text-decoration`
+  - underline
+  - overline
+  - linethrough
+  - none - Ye us waqt use hoti hai jab hame anchor tag se underline ko hatana ho.
+    - `a {text-decoration: none;}`
+  - underline wavy
+  - underline wavy green
+  - refer to mdn docs for more properties
+
+>Note: mdn text-decoration
+
+##### Font Weight
+
+- font-weight
+  - normal
+  - bold
+  - bolder
+  - lighter
+- By default font-weigth range:
+  - 100 to 900
+    - lightest is 100
+    - darkest is 900
+- bold is set to 400
+- 400 se upper value required ho tu bolder set kar sakte hain
+- 400 se kam value required ho tu lighter set kar sakte hain
+
+##### font-family
+
+- Type of font
+- Style of font
+- `font-family: arial, roboto, Tahoma, TimesNewRoman`
+  - Single property k sath multiple font styles de sakte hain.
+  - Iska reason ye hain browser ki compatibitlies ki wajah se jo font bhi browser k compatible hoa wo chal jayega.
+  - This is called `fallback mechanism`
+
+- Two types of font families
+  - Generic Font Families
+    - Is main different fonts hote hain
+  - Specific Front Families
+    - Is main bhi different fonts hote hain
 
 ## Emmets
 
