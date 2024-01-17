@@ -310,10 +310,12 @@ text-align: center;
 - `font-family: arial, roboto, Tahoma, TimesNewRoman`
   - Single property k sath multiple font styles de sakte hain.
   - Iska reason ye hain browser ki compatibitlies ki wajah se jo font bhi browser k compatible hoa wo chal jayega.
+  - comma de kar font style apply karne ka matlab ye hota hai k pehli priority hai isko apply kardo. Agar ye exist nahi karta tu dosre ko apply kardo.
   - This is called `fallback mechanism`
+    - Agar aik fail ho jaye tu dosra apply kardo
 
 - Two types of font families
-  - Generic Font Families
+  - 5 Generic Font Families
     - Is main different fonts hote hain
   - Specific Front Families
     - Is main bhi different fonts hote hain

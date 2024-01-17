@@ -18,7 +18,7 @@ h1 {
     /* text-align: center; */
     text-align: start;
     /* text-align: end; */
-    text-decoration: underline wavy;
+    text-decoration: underline;
 }
 
 a {
@@ -50,4 +50,8 @@ p {
 .new-box {
     border: 2px solid black;
     width: 460px;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
