@@ -241,7 +241,32 @@ h1, h2, h3 {
 
 - text-align
   - left, right, center
-- text-align main whole document k hisab se text align nahi hota bal k parent tag k hisab se text align hota hai.s
+- text by default left-align hota hai.
+  - `text-align: right;`
+- By Default 'heading' left align hoti hai.
+- text-align ki property whole document k hisab se work nahi karti bal k ye parent tag k hisab se work karti hai.
+  - For example, agar hamne paragraph likha hai or ye paragraph kisi div k andar hai tu paragraph ki alignment sirf `div` tag k according hogi. Means k wo sirf div k center main ayega, whole body k center main nahi ayega.
+- Example to validate above point:
+
+```html
+<h1>Heading One</h1>
+<div class="box">
+  <h1>Heading Inside Div</h1>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nisi voluptate non. Exercitationem explicabo ut quos amet, beatae totam ducimus est mollitia temporibus id sunt aliquam ea voluptate quo? Impedit!
+</div>
+```
+
+```css
+h1 {
+color: green;
+text-align: center;
+}
+
+.box {
+    border: 2px solid black;
+    width: 460px;
+}
+```
 
 ## Emmets
 

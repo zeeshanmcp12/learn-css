@@ -8,12 +8,14 @@ body {
     background-color: #ffd449;
 } */
 
+/* This is called 'Universal Selector' */
 * {
     color: blue;
 }
 
 h1 {
     color: darkgreen;
+    text-align: center;
 }
 
 #headingOne {
@@ -40,4 +42,5 @@ p {
 
 .new-box {
     border: 2px solid black;
+    width: 460px;
 }
