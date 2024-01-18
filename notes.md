@@ -320,6 +320,19 @@ text-align: center;
   - Specific Front Families
     - Is main bhi different fonts hote hain
 
+#### Units in CSS
+
+- There are two types of 'units' in CSS.
+  - Unit ka relation hota hai size k sath. Means k koi bhi chez kitni big and small hai.
+- Absolute Units
+  - These are so many
+    - px
+    - 96px = 1 inch = 2.54cm
+      - How do we use it?
+        - font-size: 2px;
+      - Normally paragraph ka default size 16px hota.
+- Relative Units
+
 ## Emmets
 
 - lorem
