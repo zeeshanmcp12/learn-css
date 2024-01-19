@@ -364,6 +364,26 @@ text-align: center;
   - Set id & text "outer" for the first one & "inner" for the second one.
   - Set the outer div text size to 25px & inner div text size to 10px.
 
+>Note: In this code, jo styling parent ko apply hogi wohi uske child ko bhi apply hogi:
+```html
+<div><p>This is outer div!</p>
+  <div><p>This is inner div</p></div>
+</div>
+```
+
+>Note: Level 1 is complete here.
+
+## Level 2
+
+- We will look at 'Box' model in this level.
+- According to CSS, 'HTML' k jitne bhi elements hain, such as span, img, div, p etc ye sab aik "box" ki form main hote hain.
+- Box model in CSS
+  - Height
+  - Width
+  - Border
+  - Padding
+  - Margin
+
 ## Emmets
 
 - lorem
