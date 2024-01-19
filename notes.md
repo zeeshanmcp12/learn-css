@@ -330,7 +330,7 @@ text-align: center;
     - 96px = 1 inch = 2.54cm
       - How do we use it?
         - font-size: 2px;
-      - Normally paragraph ka default size 16px hota.
+      - Normally paragraph ka default size 16px hot hai.
 - Relative Units
 
 ## Emmets

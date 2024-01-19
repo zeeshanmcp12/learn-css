@@ -9,19 +9,19 @@ body {
 } */
 
 /* This is called 'Universal Selector' */
-* {
+/* * {
     color: blue;
-}
+} */
 
 h1 {
-    color: darkgreen;
+    /* color: darkgreen; */
     /* text-align: center; */
-    text-align: start;
+    /* text-align: start; */
     /* text-align: end; */
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
-a {
+/* a {
     text-decoration: none;
 }
 
@@ -33,14 +33,14 @@ a {
 
 p {
     color:brown;
-}
+} */
 
 /* button {
     color:rgb(255, 32, 110);
     background-color: #ffd449;
 } */
 
-.btn, span {
+/* .btn, span {
     color: black;
     background-color: lightgrey;
     height: 25px;
@@ -54,4 +54,11 @@ p {
 
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+
+.heading h1 {
+    font-weight: bolder;
+    text-decoration: underline;
 }
+
