@@ -320,7 +320,7 @@ text-align: center;
   - Specific Front Families
     - Is main bhi different fonts hote hain
 
-#### Units in CSS
+##### Units in CSS
 
 - There are two types of 'units' in CSS.
   - Unit ka relation hota hai size k sath. Means k koi bhi chez kitni big and small hai.
@@ -332,6 +332,37 @@ text-align: center;
         - font-size: 2px;
       - Normally paragraph ka default size 16px hot hai.
 - Relative Units
+
+##### Line Height
+
+- line-height
+  - Ye property decide karti hai k hamare text ki height kitni honi chahiye.
+- `line-height: 50px`
+
+##### Text Transform
+
+- Upper-case to lower-case and vice versa
+- `text-transform: capitalize`
+- `text-transform: upppercase`
+- `text-transform: lowercase`
+- `text-transform: none`
+  - Agar pehle css main kahin text-tranform use kiya hai tu ye un sab ko invalid kardega.
+
+### Practice Set 2 🚀
+
+#### P2-Q1
+
+- Create a heading centred on the page with all of its text capitalized by default.
+
+#### P2-Q2
+
+- Set the font family of all the content in the document to "Times New Roman".
+
+#### P2-Q3
+
+- Create one div inside another div.
+  - Set id & text "outer" for the first one & "inner" for the second one.
+  - Set the outer div text size to 25px & inner div text size to 10px.
 
 ## Emmets
 
