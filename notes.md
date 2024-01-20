@@ -375,14 +375,18 @@ text-align: center;
 
 ## Level 2
 
-- We will look at 'Box' model in this level.
-- According to CSS, 'HTML' k jitne bhi elements hain, such as span, img, div, p etc ye sab aik "box" ki form main hote hain.
+- We will look at **Box** model in this level.
+- According to CSS, 'HTML' k jitne bhi elements hain, such as span, img, div, p etc ye sab eventually aik "box" ki form main hote hain.
 - Box model in CSS
   - Height
   - Width
   - Border
   - Padding
   - Margin
+
+### Box Model
+
+
 
 ## Emmets
 
