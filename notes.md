@@ -445,6 +445,62 @@ div {
   - solid -> style
   - black -> color
 
+#### Border Radius
+
+- `border-radius`
+  - ye property border ko radius (curve) dene k liye use hoti hai
+  - border ko radius do tarah se de sakte hain.
+    - px main
+    - percentage main for example '50%' etc
+  - Syntax
+    - `border-radius: 10px`
+    - `border-radius: 50%`
+
+>Note: CSS main koi bhi shape create karne k liye ham use 'height' and 'width' de sakte hain.
+>Note: But Circle k liye ham (shape ki) height 100, width 100 and `border-radius` 50% rakhenge tu circle create ho jayega.
+
+Syntax:
+
+```css
+div {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+```
+
+#### Padding
+
+- Border or content k between jo area hota hai use 'padding' kehte hain.
+- 'Padding' all sides se apply ki ja sakti hai.
+  - `padding-left`
+  - `padding-right`
+  - `padding-top`
+  - `padding-bottom`
+
+##### Padding Shorthand
+
+- `padding: 10px` -> it means, 10px from each side
+- `padding: 5px 5px 5px 5px`
+
+>Note: **Padding Shorthand** main clock-wise style apply hota hai. Means k pehle top, then right, then bottom and then left. For example: `padding: 20px(top) 10px(right) 5px(bottom) 5px(left)`
+
+#### Margin
+
+- Two boxes k between jo area hota hai usay 'margin' kehte hain.
+- 'Margin' all sides se apply ki jasakti hai.
+  - `margin-left`
+  - `margin-right`
+  - `margin-top`
+  - `margin-bottom`
+
+##### Margin Shorthand
+
+- `margin: 10px` -> it means, 10px from each side
+- `margin: 20px 10px 5px 5px`
+
+>Note: **Margin Shorthand** main clock-wise style apply hota hai. Means k pehle top, then right, then bottom and then left. For example: `margin: 20px(top) 10px(right) 5px(bottom) 5px(left)`
+
 ## Emmets
 
 - lorem
