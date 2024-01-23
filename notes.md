@@ -333,6 +333,8 @@ text-align: center;
       - Normally paragraph ka default size 16px hot hai.
 - Relative Units
 
+> Note: Absolute units main 'pixel' unit sab se zyada use hota hai.
+
 ##### Line Height
 
 - line-height
@@ -386,7 +388,62 @@ text-align: center;
 
 ### Box Model
 
+>Note: When we will refer the term (word) 'content', it will be anything, button, paragraph, heading, div etc
 
+- Padding
+  - Content k around jo extra space hoti hai use ham 'padding' kehte hain.
+- Border
+  - Content ki boundry ko ham border kehte hain.
+  - Kisi bhi content ko jo cheez enclosed karti hai use ham border kehte hain.
+- Height
+  - Content jitna vertical area leta hai use ham height kehte hain. For example, top to bottom ya bottom to top
+- Width
+  - Content jitna horizontal area leta hai use ham  width kehte hain. For example, left to right or right to left
+- Margin
+  - Two boxes k between ki 'space' ko margin kehte hain.
+
+#### Height - in box model
+
+- Content ka wo area jo vertically cover hota hai.
+- In other words, 'height' kya karta hai k content k liye vertically.
+- Example:
+
+```css
+div {
+  height: 10px
+}
+```
+
+#### Width
+
+- 'Width' property content k horizontally area ko 'width' dene k liye use hoti hai.
+
+#### Border
+
+- `border-width`
+- `border-style`
+- `border-color`
+- Content k border ko set karne k liye ham 'Border' property use karte hain.
+- border ki bhi further properties hain
+  - border-style
+    - solid
+    - dotted
+    - dashed
+    - wazy
+    - ...etc
+  - border-width
+    - 10px
+    - ...etc
+  - border-color
+    - any color
+
+#### Border (Shorthand)
+
+- We can combine 'width', 'style', and 'color' together to make the border.
+- `border: 2px solid black`
+  - 2px -> width
+  - solid -> style
+  - black -> color
 
 ## Emmets
 
@@ -407,3 +464,12 @@ text-align: center;
       <p>lorem</p>
     </div>
 ```
+
+## Some Extras
+
+- Different types of structure for website
+  - Linear
+  - Hierarchical
+  - Webbed
+- Active Space
+- Passive Space
