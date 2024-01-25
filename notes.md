@@ -523,6 +523,16 @@ div {
 
 ## Some Extras
 
+- Kisi bhi big project par kam start karne se pehle 'Universal' element ki padding and margin 0 (zero) rakhte hain. For example
+
+```css
+* {
+    padding: 0;
+    margin: 0;
+}
+```
+
+- Jese hi ham div ko add karte hain wese hi sara content next line main chala jata hai.
 - Different types of structure for website
   - Linear
   - Hierarchical
