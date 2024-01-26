@@ -504,10 +504,105 @@ div {
 ### inline/block elements
 
 - HTML main kuch 'inline' elements hote hain and kuch 'block' elements hote hain.
-- inline elements - wo elements jo sirf utni hi space lete hain jitni elements ki hoti hai. For example `button`, `div`
-- `block` elements - wo elements jo poori width consume karta hai.
+  
+#### Block-level elements
+
+- Ye wo elements hote hain jo new line se start hote hain or browser automatically in elements k start and end par space (margin) add kardeta hai.
+- Block-level elements full available width lete hain. Left and right se jahan tak strech hota hai ye elements space consume karte hain.
+- Most commonly used block-level elements are `p` and `div`
+- Syntax
+
+```html
+<p>Simple Paragraph</p>
+<div>This is div</div>
+```
+
+```css
+p {
+  background-color: aqua;
+  border: 2px solid black
+}
+
+div {
+  background-color: aqua;
+  border: 2px solid black;
+}
+```
+
+- `address`
+- `article`
+- `aside`
+- `blockquote`
+- `canvas`
+- `dd`
+- `div`
+- `dl`
+- `dt`
+- `fieldset`
+- `figcaption`
+- `figure`
+- `footer`
+- `form
+- `<h1>-<h6>`
+- `header`
+- `hr`
+- `li`
+- `main`
+- `nav`
+- `noscript`
+- `ol`
+- `p`
+- `pre`
+- `section`
+- `table`
+- `tfoot`
+- `ul`
+- `video`
+
+#### Inline Elements
+
+- inline elements new line se start nahi hote.
+- Ye sirf utni hi space consume karte hain jitni zaroorat hoti hai.
+- `span` is an inline element
+
 - inline ko block element main and block ko inline main convert kiya ja sakta hai using `display` property.
 - Jab ham block ko inline main convert karte hain tu wo elements same line main ajate hain.
+
+- `a`
+- `abbr`
+- `acronym`
+- `b`
+- `bdo`
+- `big`
+- `br`
+- `button`
+- `cite`
+- `code`
+- `dfn`
+- `em`
+- `i`
+- `img`
+- `input`
+- `kbd`
+- `label`
+- `map`
+- `object`
+- `output`
+- `q`
+- `samp`
+- `script`
+- `select`
+- `small`
+- `span`
+- `strong`
+- `sub`
+- `sup`
+- `textarea`
+- `time`
+- `tt`
+- `var`
+
+>Note: An Inline element cannot contain a block-level element!
 
 ### Display Property
 
