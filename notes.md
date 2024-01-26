@@ -507,6 +507,7 @@ div {
 - inline elements - wo elements jo sirf utni hi space lete hain jitni elements ki hoti hai. For example `button`, `div`
 - `block` elements - wo elements jo poori width consume karta hai.
 - inline ko block element main and block ko inline main convert kiya ja sakta hai using `display` property.
+- Jab ham block ko inline main convert karte hain tu wo elements same line main ajate hain.
 
 ### Display Property
 
