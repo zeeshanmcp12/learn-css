@@ -38,3 +38,11 @@ h1 {
     padding-left: 10px;
 
 }
+
+.image-box {
+    border: 2px solid white;
+    height: 70px;
+    width: 100px;
+    color: white;
+    margin-bottom: 10px;
+}

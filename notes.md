@@ -501,6 +501,21 @@ div {
 
 >Note: **Margin Shorthand** main clock-wise style apply hota hai. Means k pehle top, then right, then bottom and then left. For example: `margin: 20px(top) 10px(right) 5px(bottom) 5px(left)`
 
+### inline/block elements
+
+- HTML main kuch 'inline' elements hote hain and kuch 'block' elements hote hain.
+- inline elements - wo elements jo sirf utni hi space lete hain jitni elements ki hoti hai. For example `button`, `div`
+- `block` elements - wo elements jo poori width consume karta hai.
+- inline ko block element main and block ko inline main convert kiya ja sakta hai using `display` property.
+
+### Display Property
+
+- `display` inline - block element ko inline element main convert karteda hai.
+  - Iska drawback ye hai k 'padding' and 'margin' apply nahi hogi.
+- `display` block - inline element ko block element main convert kardeta hai.
+- `display` inline-block: is property ko use karne se 'padding' and 'margin' proper add ho sakti hai.
+  - Ye property similar to inline hai but we can set margin & padding.
+
 ## Emmets
 
 - lorem
