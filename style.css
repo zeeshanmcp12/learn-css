@@ -58,16 +58,29 @@ p {
     /* display: inline; */
 }
 
-div {
+/* div {
     background-color: aqua;
     border: 2px solid black;
     height: 100px;
     width: 100px;
     display: inline-block;
     margin: 10px;
-}
+} */
 
 span {
     background-color: aqua;
     /* display: block; */
+}
+
+
+div {
+    border: 2px solid black;
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    /* display: inline; */
+}
+
+button {
+    display: block;
 }
