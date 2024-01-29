@@ -86,7 +86,7 @@ div {
     padding: 25px;
     border: 2px solid black;
     background-color: aqua;
-    display: inline;
+    display: inline-block;
 }
 
 #box-two {
@@ -96,9 +96,7 @@ div {
     padding: 25px;
     border: 2px solid black;
     background-color: burlywood;
-    display: inline;
-
-
+    display: none;
 }
 
 #box-three {
@@ -108,6 +106,5 @@ div {
     padding: 25px;
     border: 2px solid black;
     background-color: blanchedalmond;
-    display: inline;
-
+    display: inline-block;
 }

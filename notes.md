@@ -603,19 +603,63 @@ div {
 - `var`
 
 >Note: An Inline element cannot contain a block-level element!
->Note: Converting `<button></button>` element to 'block' does not work at the time of writing these notes. 
+>Note: Converting `<button></button>` element to 'block' does not work at the time of writing these notes.
 
 ### Display Property
 
 - `display` inline - block element ko inline element main convert karteda hai.
   - Iska drawback ye hain k
-    - 'margin'  top and bottom se apply nahi hotin
     - Ye element ko same line main le ata hai
+    - top and bottom se 'margin' apply nahi hotin
 - `display` block - inline element ko block element main convert kardeta hai.
 - `display` inline-block: is property ko use karne se 'padding' and 'margin' proper add ho sakti hai.
   - Ye property similar to inline hai but we can set margin & padding.
+    - Means k hamari element ki type inline type ki hogi but ham additionally margin and padding bhi apply kar sakenge.
+  - Is se margin and padding bhi apply ho jati hai or ye benefit bhi hota hai k elements same line main hi rehte hain.
+  - Try the code below for `display: inline-block`
+- `display` none: Agar hame us element ko apne document flow se bilkul hi remove karna hai tu ham ye property use karte hain.
+  - Is property ki wajah se us element ki koi jaga bhi nahi rehti.
+  - Means k wo element document se bilkul gayib ho jata hai.
+  - `display: none`
 
->Note: `block-level` element (such as `div`) ko `inline`kar dene se us par top and bottom se margin apply nahi hotin.
+>Note: In simple words, agar ham kisi bhi element ko inline bana chahte hain but sath hi sath ham ye bhi chahte hain k ham us element par saari properties apply kar saken tu us k liye hame `display` ko `inline-block` set karna hoga.
+
+```html
+    <h1>Playing around with <code>display</code> property</h1>
+    <div id="box-one">Box 1</div>
+    <div id="box-two">Box 2</div>
+    <div id="box-three">Box 3</div>
+```
+
+```css
+#box-one {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid black;
+    background-color: aqua;
+    display: inline-block;
+}
+#box-two {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid black;
+    background-color: burlywood;
+    display: inline-block;
+}
+#box-three {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    display: inline-block;
+}
+```
 
 ## Emmets
 
