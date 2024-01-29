@@ -603,14 +603,19 @@ div {
 - `var`
 
 >Note: An Inline element cannot contain a block-level element!
+>Note: Converting `<button></button>` element to 'block' does not work at the time of writing these notes. 
 
 ### Display Property
 
 - `display` inline - block element ko inline element main convert karteda hai.
-  - Iska drawback ye hai k 'padding' and 'margin' apply nahi hogi.
+  - Iska drawback ye hain k
+    - 'margin'  top and bottom se apply nahi hotin
+    - Ye element ko same line main le ata hai
 - `display` block - inline element ko block element main convert kardeta hai.
 - `display` inline-block: is property ko use karne se 'padding' and 'margin' proper add ho sakti hai.
   - Ye property similar to inline hai but we can set margin & padding.
+
+>Note: `block-level` element (such as `div`) ko `inline`kar dene se us par top and bottom se margin apply nahi hotin.
 
 ## Emmets
 

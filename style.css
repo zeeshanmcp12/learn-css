@@ -52,11 +52,10 @@ div {
     margin-top: 10px;
     margin-bottom: 10px; */
 
-p {
+/* p {
     background-color: aqua;
     border: 2px solid black;
-    /* display: inline; */
-}
+} */
 
 /* div {
     background-color: aqua;
@@ -67,20 +66,48 @@ p {
     margin: 10px;
 } */
 
-span {
+/* span {
     background-color: aqua;
-    /* display: block; */
-}
+} */
 
 
-div {
+/* div {
     border: 2px solid black;
     background-color: aqua;
     height: 150px;
     width: 150px;
-    /* display: inline; */
+} */
+
+
+#box-one {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid black;
+    background-color: aqua;
+    display: inline;
 }
 
-button {
-    display: block;
+#box-two {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid black;
+    background-color: burlywood;
+    display: inline;
+
+
+}
+
+#box-three {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    display: inline;
+
 }
