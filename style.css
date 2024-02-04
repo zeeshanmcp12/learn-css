@@ -96,7 +96,8 @@ div {
     padding: 25px;
     border: 2px solid black;
     background-color: burlywood;
-    display: none;
+    /* display: none; */
+    /* visibility: hidden; */
 }
 
 #box-three {
@@ -107,4 +108,14 @@ div {
     border: 2px solid black;
     background-color: blanchedalmond;
     display: inline-block;
+}
+
+#box-four {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid black;
+    background-color: rgb(119, 143, 96);
+    /* visibility: hidden; */
 }

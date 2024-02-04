@@ -661,6 +661,14 @@ div {
 }
 ```
 
+### Visibility
+
+- `visibility: hidden | visible | collapse`
+- `visibility` - element will completely invisible but the space is still reserved or in other words, layout will still be effected.
+- document main se element completely invisible ho jayega but uski space still reserve rahegi.
+- Syntax
+  - `visibility: hidden`
+
 ## Emmets
 
 - lorem
