@@ -605,7 +605,7 @@ div {
 >Note: An Inline element cannot contain a block-level element!
 >Note: Converting `<button></button>` element to 'block' does not work at the time of writing these notes.
 
-### Display Property
+#### Display Property
 
 - `display` inline - block element ko inline element main convert karteda hai.
   - Iska drawback ye hain k
@@ -661,13 +661,30 @@ div {
 }
 ```
 
-### Visibility
+#### Visibility
 
 - `visibility: hidden | visible | collapse`
 - `visibility` - element will completely invisible but the space is still reserved or in other words, layout will still be effected.
 - document main se element completely invisible ho jayega but uski space still reserve rahegi.
 - Syntax
   - `visibility: hidden`
+
+>Note: `display` property ko `none` set karte hain tu document flow main space reserve nahi hoti. Jab k `visibility` property ko `hidden` set karte hain tu space reserve rehti hai.
+
+### Alpha Channel
+
+- Alpha channel decides the opacity.
+  - Means k koi bhi color kitna zyada dikh raha hai.
+  - Opacity starts from 0 to 1
+- RGB k sath 'A' add karne se alpha channel ban jata hai.
+  - RGBA
+    - R = Red
+    - G = Green
+    - B = Blue
+    - A = Alpha - means opacity
+  - `rgba(0,255,0,0.75)`
+  - `rgba(255,0,0,0.50)`
+  - `rgba(0,0,255,0.25)`
 
 ## Emmets
 

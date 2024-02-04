@@ -96,7 +96,7 @@ div {
     padding: 25px;
     border: 2px solid black;
     background-color: burlywood;
-    /* display: none; */
+    display: none;
     /* visibility: hidden; */
 }
 
@@ -117,5 +117,42 @@ div {
     padding: 25px;
     border: 2px solid black;
     background-color: rgb(119, 143, 96);
+    display: inline-block;
     /* visibility: hidden; */
+}
+
+#lorem-five {
+    background-color: aqua;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+#box-five {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid black;
+    background-color: rgba(255, 0, 0, 0.75);
+    display: inline-block;
+}
+
+#box-six {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid black;
+    background-color: rgba(0, 255, 0, 0.50);
+    display: inline-block;
+}
+
+#box-seven {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 255, 0.25);
+    display: inline-block;
 }
