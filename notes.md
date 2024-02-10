@@ -686,6 +686,14 @@ div {
   - `rgba(255,0,0,0.50)`
   - `rgba(0,0,255,0.25)`
 
+>Note: Level 2 is complete here.
+
+## Level 3
+
+- In this level, we will discuss about 'Units' in CSS.
+- Ab tak hamne 'Units' main 'Absolute' unit discuss kiya hai jiska matlab hota hai k size fix rahega. Ab chahay wo pixels main ho, inch main ho ya kisi or unit main.
+- We will discuss about 'Relative Units' in this level.
+
 ## Emmets
 
 - lorem
