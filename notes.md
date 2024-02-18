@@ -405,7 +405,6 @@ text-align: center;
 #### Height - in box model
 
 - Content ka wo area jo vertically cover hota hai.
-- In other words, 'height' kya karta hai k content k liye vertically.
 - Example:
 
 ```css
