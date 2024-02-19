@@ -500,6 +500,24 @@ div {
 
 >Note: **Margin Shorthand** main clock-wise style apply hota hai. Means k pehle top, then right, then bottom and then left. For example: `margin: 20px(top) 10px(right) 5px(bottom) 5px(left)`
 
+### Practice Set 3 🚀
+
+#### P3-Q1
+
+- Create a div with height & width of 100px.
+- Set its background color to green & the border radius to 50%
+
+#### P3-Q2
+
+- Create the following navbar
+  - amazon.in - text size - 25px
+  - color - #0f1111
+  - anchor tags - Account MyCart Contact Us
+  - gap between anchor tags - 200px
+  - height - 60px
+  - Search bar button color - #f08804
+  - placeholder in search bar - `search Amazon.in
+
 ### inline/block elements
 
 - HTML main kuch 'inline' elements hote hain and kuch 'block' elements hote hain.
@@ -686,6 +704,26 @@ div {
   - `rgba(0,0,255,0.25)`
 
 >Note: Level 2 is complete here.
+
+### Practice Set 4 🚀
+
+#### P4-Q1
+
+- Create a webpage layout with a header, a footer & a content area containing 3 divs.
+- Set the height and width of divs to 100px.
+  - (add the previous navbar in the header)
+
+#### P4-Q2
+
+- Add borders to all the divs.
+
+#### P4-Q3
+
+- Add a different background color to each div with an opacity of 0.5
+
+#### P4-Q4
+
+- Give the content area an appropriate height.
 
 ## Level 3
 

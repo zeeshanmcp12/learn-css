@@ -1,6 +1,25 @@
 
-h1 {
+/* h1 {
     color: rgb(2, 58, 75);
     background-color: burlywood;
     text-align: center;
+} */
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#content {
+    height: 500px;
+}
+
+#footer {
+    background-color: black;
+    color: bisque;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid ;
+
 }
