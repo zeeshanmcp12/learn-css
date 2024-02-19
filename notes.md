@@ -510,13 +510,13 @@ div {
 #### P3-Q2
 
 - Create the following navbar
-  - amazon.in - text size - 25px
+  - amazon.com - text size - 25px
   - color - #0f1111
   - anchor tags - Account MyCart Contact Us
   - gap between anchor tags - 200px
   - height - 60px
   - Search bar button color - #f08804
-  - placeholder in search bar - `search Amazon.in
+  - placeholder in search bar - `search Amazon.com
 
 ### inline/block elements
 
