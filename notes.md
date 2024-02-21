@@ -735,7 +735,9 @@ div {
 
 - Most popular relative units
 - %
-  - to be continue
+  - percentage parent k comparison main hota hai. For example, agar parent main hamne 100px widht set ki and us k child ki width ham `20%` set karenge tu ye hoga 20px, because 20% of 100 is 20px
+  - % (percentage) unit main agar hamne margin set karni ho tu parent child ki value parent ki width k according hogi.
+    - For example, agar parent ki width 200px ho or child ki margin 20% set karen tu 200 ka 20% hoga 40, hence margin set hogi 40px.
 - em
 - rem
 
