@@ -21,7 +21,25 @@
 } */
 
 /* Units in CSS - em */
-#box1 {
+/* #box1 {
+    height: 100px;
+    width: 200px;
+    background-color: aquamarine;
+    font-size: 10px;
+}
+
+#box2 {
+    height: 50px;
+    width: 20%;
+    background-color: brown;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 5em;
+} */
+
+/* Units in CSS - rem */
+/* #box1 {
     height: 100px;
     width: 200px;
     background-color: aquamarine;
@@ -36,4 +54,23 @@
     margin-left: 10%;
     font-size: 2em;
     width: 5rem;
+} */
+
+/* Units in CSS - vh and vw */
+#box1 {
+    height: 100px;
+    width: 200px;
+    background-color: aquamarine;
+    font-size: 10px;
+}
+
+#box2 {
+    width: 20%;
+    background-color: brown;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 2em;
+    /* width: 5rem; */
+    height: 50vh;
+    width: 50vw;
 }

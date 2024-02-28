@@ -789,6 +789,14 @@ div {
 
 - Agar main box2 ki width 5rem set kardon or root element main text ka font-size 16 ho tu box2 ki width ka size 80px set hoga. Because rem (Root em) main root element k font-size k according property set hoti hain.
 
+- vh (viewport height)
+  - Hamari screen ki jitni bhi height hai uskay 1% k hisab se element ko size assign hota hai.
+  - For example:
+    - Agar ham box ki height 50vh set karden to browser ki jitni height hai uska 50% box ki height set ho jayegi.
+- vw
+  - viewport width
+    - Ye bhi similar to vh (viewport height) hi hai. Bas is main widght ka size set hota hai.
+
 ## Emmets
 
 - lorem
