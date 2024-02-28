@@ -762,6 +762,25 @@ div {
   font-size: 0.5em;
 }
 ```
+>Note: font-size property main font-size of parent dekha jata hai. width property main 'font-size of element itself' dekha jata hai. For example, Syntax:
+
+```css
+#box1 {
+    height: 100px;
+    width: 200px;
+    background-color: aquamarine;
+    font-size: 10px;
+}
+
+#box2 {
+    height: 50px;
+    background-color: brown;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 1em;
+    width: 5em;
+}
+```
 
 - rem
 
