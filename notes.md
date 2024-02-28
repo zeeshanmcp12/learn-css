@@ -782,7 +782,12 @@ div {
 }
 ```
 
-- rem
+- rem (Root em)
+  - Yahan par apne parent element ka nahi bal k root element (jo sabse bahar hai jese k html ya body tag us) k font-size k hisab se properties set hongi.
+
+>Note: body tag k andar koi bhi text likhenge jo kisi bhi tag ka part na ho by default uska font-size '16' hai mere browser k hisab se.
+
+- Agar main box2 ki width 5rem set kardon or root element main text ka font-size 16 ho tu box2 ki width ka size 80px set hoga. Because rem (Root em) main root element k font-size k according property set hoti hain.
 
 ## Emmets
 
