@@ -1,4 +1,5 @@
-#box1 {
+/* Units in CSS - % (percentage) */
+/* #box1 {
     height: 100px;
     width: 200px;
     background-color: green;
@@ -16,4 +17,22 @@
     width: 100px;
     background-color: aqua;
     margin-top: 10px;
+    text-align: center;
+} */
+
+/* Units in CSS - em */
+#box1 {
+    height: 100px;
+    width: 200px;
+    background-color: aquamarine;
+    font-size: 15px;
+}
+
+#box2 {
+    height: 50px;
+    width: 20%;
+    background-color: brown;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 0.5em;
 }

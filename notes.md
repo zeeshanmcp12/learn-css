@@ -735,10 +735,34 @@ div {
 
 - Most popular relative units
 - %
-  - percentage parent k comparison main hota hai. For example, agar parent main hamne 100px widht set ki and us k child ki width ham `20%` set karenge tu ye hoga 20px, because 20% of 100 is 20px
+  - percentage parent k comparison main hota hai. For example, agar parent main hamne 100px width set ki and us k child ki width ham `20%` set karenge tu ye hoga 20px, because 20% of 100 is 20px
   - % (percentage) unit main agar hamne margin set karni ho tu parent child ki value parent ki width k according hogi.
     - For example, agar parent ki width 200px ho or child ki margin 20% set karen tu 200 ka 20% hoga 40, hence margin set hogi 40px.
 - em
+  - It is pronounce as 'm'.
+  - 'em' unit font-size k according hota hai.
+  - Sometimes 'em' ka size parent element k according set hota hai and sometimes "itself" element k according set hota hai.
+  - Means k agar parent element k font ka size 20px hai or child k font ka size 'em' unit use karte hoe `1em` set karenge tu child k font ka size 20px hi hoga.
+  - Agar parent element k font ka size 20px ho or child k font ka size 'em' unit use karte hoe `2em` set karenge tu font ka size 40px hoga.
+  - Agar parent element k font ka size 20px ho or child k font ka size 'em' unit use karte hoe `0.5em` set karenge tu font ka size 10px hoga.
+  - Syntax
+
+```css
+#box1 {
+  height: 100px;
+  width: 100px
+  font-size: 20px;
+}
+
+#box2 {
+  height: 100px;
+  width: 50px;
+  /* font-size: 1em; */
+  /* font-size: 2em; */
+  font-size: 0.5em;
+}
+```
+
 - rem
 
 ## Emmets
