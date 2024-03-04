@@ -738,6 +738,24 @@ div {
   - percentage parent k comparison main hota hai. For example, agar parent main hamne 100px width set ki and us k child ki width ham `20%` set karenge tu ye hoga 20px, because 20% of 100 is 20px
   - % (percentage) unit main agar hamne margin set karni ho tu parent child ki value parent ki width k according hogi.
     - For example, agar parent ki width 200px ho or child ki margin 20% set karen tu 200 ka 20% hoga 40, hence margin set hogi 40px.
+  - Syntax
+
+```css
+#box1 {
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+#box2 {
+    height: 50px;
+    width: 20%;
+    background-color: blanchedalmond;
+    margin-left: 20px;
+}
+```
+
 - em
   - It is pronounce as 'm'.
   - 'em' unit font-size k according hota hai.
