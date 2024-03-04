@@ -799,21 +799,55 @@ div {
     width: 5em;
 }
 ```
+>Note: `em` unit wese tu font-size property k sath commonly use hota hai. But iska use dosri properties k sath bhi kiya ja sakta hai. For example: `padding`, `margin`, `width` etc. For example - Syntax:
+
+```css
+#box3 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: burlywood;
+    font-size: 16px;
+    padding: 0.5em;
+}
+```
+>Note: Yahan padding: 0.5 ka matlab hai k element ki padding 8px hogi because is element k font-size property ki value 16px hai. In simple words, padding for all four sides will be 8px.
 
 - rem (Root em)
   - Yahan par apne parent element ka nahi bal k root element (jo sabse bahar hai jese k html ya body tag us) k font-size k hisab se properties set hongi.
 
->Note: body tag k andar koi bhi text likhenge jo kisi bhi tag ka part na ho by default uska font-size '16' hai mere browser k hisab se.
+>Note: body tag k andar koi bhi text likhenge jo kisi bhi tag ka part na ho by default uska font-size '16' hai mere browser k hisab se. For example - syntax:
+
+```css
+#box3 {
+    height: 3em;
+    width: 3em;
+    border: 1px solid black;
+    background-color: burlywood;
+    font-size: 16px;
+    padding: 2rem;
+}
+```
 
 - Agar main box2 ki width 5rem set kardon or root element main text ka font-size 16 ho tu box2 ki width ka size 80px set hoga. Because rem (Root em) main root element k font-size k according property set hoti hain.
 
 - vh (viewport height)
   - Hamari screen ki jitni bhi height hai uskay 1% k hisab se element ko size assign hota hai.
-  - For example:
-    - Agar ham box ki height 50vh set karden to browser ki jitni height hai uska 50% box ki height set ho jayegi.
+  - In `vh`, 1vh means 1%. So agar page height is 824 and we set box3 size to 50vh, it will be calculated as 50% of the browser's page which is 412.
+  - If page height is 915 and we set box3 height to 50vh, it is 457.5
+  - For example - Syntax:
+
+```css
+#box3 {
+    height: 50vh;
+    width: 100px;
+    border: 1px solid black;
+}
+```
+
 - vw
   - viewport width
-    - Ye bhi similar to vh (viewport height) hi hai. Bas is main widght ka size set hota hai.
+    - Ye bhi similar to vh (viewport height) hi hai. Bas is main width ka size set hota hai.
 
 ## Emmets
 
