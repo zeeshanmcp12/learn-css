@@ -849,6 +849,11 @@ div {
   - viewport width
     - Ye bhi similar to vh (viewport height) hi hai. Bas is main width ka size set hota hai.
 
+### Position property in CSS
+
+- Ham apni website ya document par jo bhi element create karte hain uski koi na koi position hoti hai. For example left, top, bottom, and right
+- Ham `Position` property ko use karte hoe apne element ko document par kahin bhi place kar sakte hain.
+
 ## Emmets
 
 - lorem
