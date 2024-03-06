@@ -851,8 +851,38 @@ div {
 
 ### Position property in CSS
 
+- Hamare document (ya website) par konsa element konsi position par hai.
 - Ham apni website ya document par jo bhi element create karte hain uski koi na koi position hoti hai. For example left, top, bottom, and right
 - Ham `Position` property ko use karte hoe apne element ko document par kahin bhi place kar sakte hain.
+- `position` property main se kuch ye hain:
+  - static
+    - By default saray elements static hote hain. In elements ko static karne se koi differnece nahi ata or na hi wo apni position change karte hain.
+  - relative
+  - absolute
+  - ...
+- Syntax
+
+```css
+div {
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1 {
+    position: static;
+    top: 100px;
+}
+
+#box2 {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    right: 100px;
+}
+```
 
 ## Emmets
 
