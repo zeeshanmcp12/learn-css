@@ -852,14 +852,26 @@ div {
 ### Position property in CSS
 
 - Hamare document (ya website) par konsa element konsi position par hai.
+- Jo property kisi button, div ya or kisi or element ki position ko set karti hai use ham `position` kehte hain.
 - Ham apni website ya document par jo bhi element create karte hain uski koi na koi position hoti hai. For example left, top, bottom, and right
 - Ham `Position` property ko use karte hoe apne element ko document par kahin bhi place kar sakte hain.
-- `position` property main se kuch ye hain:
+- `position` property main hamare pas 4 ya 5 possible values hoti hain:
   - static
-    - By default saray elements static hote hain. In elements ko static karne se koi differnece nahi ata or na hi wo apni position change karte hain.
   - relative
   - absolute
-  - ...
+  - fixed
+  - sticky
+- `position` se related hamare pas kuch properties mazeed hoti hain. For example
+  - top
+  - right
+  - bottom
+  - left
+  - z-index
+
+#### static
+
+- By default saray elements static hote hain. In elements ki `property` static set karne se koi differnece nahi ata or na hi wo apni position change karte hain.
+- ye 4ron (top, right, bottom, left and z-index) properties `static` k sath work nahi karti.
 - Syntax
 
 ```css
@@ -876,6 +888,14 @@ div {
     top: 100px;
 }
 
+```
+
+#### relative
+
+- `relative` property ka matlab k element 'relative to itself' hoga. Means k kisi element ko `relative` karne k bad us par `position` ki jo bhi property (top, right, bottom, left) apply karenge wo element apne apko usi hisab se move karega.
+- Syntax
+
+```css
 #box2 {
     position: relative;
     top: 50px;
