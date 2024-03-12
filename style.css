@@ -122,19 +122,35 @@
 div {
     height: 100px;
     width: 100px;
-    background-color: bisque;
+    /* background-color: bisque; */
     border: 2px solid black;
     display: inline-block;
 }
 
 #box1 {
+    background-color: bisque;
     position: static;
     top: 100px;
 }
 
 #box2 {
+    background-color: aqua;
     position: relative;
     top: 50px;
     left: 100px;
     right: 100px;
+}
+
+#box3 {
+    background-color: cadetblue;
+    position: absolute;
+    top: 20px;
+    right: 500px;
+}
+
+#box4 {
+    background-color: chartreuse;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

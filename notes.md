@@ -904,6 +904,40 @@ div {
 }
 ```
 
+#### absolute
+
+- Jis element par ham ye property apply karenge wo element apne closest positioned ancestor k according work karega.
+- `absolute` main position closest positioned ancestor k according set hoti hai. Means k agar box3(div) ki position absolute set ki hai tu uska parent dekha jayega k konsa hai.
+- Agar closest ancestor `body` hoga to postions (top, right, bottom, and left) usi k according set hogi.
+- Syntax
+
+```css
+#box3 {
+    background-color: cadetblue;
+    position: absolute;
+    top: 20px;
+    right: 500px;
+}
+```
+
+#### fixed
+
+- `fixed` main position browser ki windows k according set hoti hai. Is main closest positioned ansector nahi dekha jata.
+- Is main position browser ya poray document k according set hogi.
+- For example, see syntax
+
+```css
+#box4 {
+    background-color: chartreuse;
+    position: fixed;
+    right: 10px;
+}
+```
+
+- yahan box4 poray k poray document k right se 10px agay ho jayega.
+
+#### sticky
+
 ## Emmets
 
 - lorem
