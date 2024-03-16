@@ -897,10 +897,9 @@ div {
 
 ```css
 #box2 {
+    background-color: aqua;
     position: relative;
-    top: 50px;
-    left: 100px;
-    right: 100px;
+    top: 20px;
 }
 ```
 
@@ -916,14 +915,19 @@ div {
     background-color: cadetblue;
     position: absolute;
     top: 20px;
-    right: 500px;
 }
 ```
+
+- Yahan top se hamne 10px kardiya and closest positioned ansector body tag hai so box3 ki position bilkul top se 10px set ho jayegi.
+
+>Note: See the difference between `relative` and `absolute` position property. Dono ki position top se 20px set hai but `relative` ki position closest positioned ansector na hone ki wajah se document k bilkul top se set nahi ho rahi. Jab k `absolute` ki position closest positioned ansector (body element) hone ki wajah se bilkul top se set ho rahi hai.
 
 #### fixed
 
 - `fixed` main position browser ki windows k according set hoti hai. Is main closest positioned ansector nahi dekha jata.
 - Is main position browser ya poray document k according set hogi.
+- is case main element document flow se hat jayega.
+- Jo websites k 'headers' ya 'footers' hote hain us main ham ye property use karte hain. Means k header/footer ko ham top or bottom par fix kar dete hain.
 - For example, see syntax
 
 ```css
@@ -935,6 +939,7 @@ div {
 ```
 
 - yahan box4 poray k poray document k right se 10px agay ho jayega.
+- Agar hame box4 ko footer main convert karna hai aur bottom par fix karna hai tu ham bottom ko 0 kardenge and iski width ko 100px kardenge ya 100vw kardenge.
 
 #### sticky
 
