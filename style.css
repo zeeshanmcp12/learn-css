@@ -149,8 +149,8 @@ div {
 
 #box4 {
     background-color: chartreuse;
-    /* position: fixed; */
-    /* right: 10px; */
-    /* bottom: 0; */
-    /* width: 100%; */
+    position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100vw;
 }

@@ -926,6 +926,7 @@ div {
 
 - `fixed` main position browser ki windows k according set hoti hai. Is main closest positioned ansector nahi dekha jata.
 - Is main position browser ya poray document k according set hogi.
+- `absolute` k case position kabhi browser and kabhi `closest positioned ansector` k according set hoti hai but `fixed` main **relative to browser** hoti hai.
 - is case main element document flow se hat jayega.
 - Jo websites k 'headers' ya 'footers' hote hain us main ham ye property use karte hain. Means k header/footer ko ham top or bottom par fix kar dete hain.
 - For example, see syntax
@@ -934,7 +935,10 @@ div {
 #box4 {
     background-color: chartreuse;
     position: fixed;
-    right: 10px;
+    /* right: 10px; */
+    bottom: 0;
+    display: block;
+    width: 100vw;
 }
 ```
 
