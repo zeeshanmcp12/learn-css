@@ -1,20 +1,27 @@
-div {
-    height: 500px;
-    width: 500px;
-    border: 2px solid black;
-    display: inline-block;
-    text-align: center;
-    font-size: 100px;
+* {
+    background-color:rgb(38, 109, 211);
+
 }
 
-#box1 {
-    background-color: aquamarine;
+h1 {
+    color: #ffffff;
 }
 
-#box2 {
-    background-color: burlywood;
+h2 {
+    color: #ffffff;
+
 }
 
-#box3 {
-    background-color: cornflowerblue;
+button {
+    background-color: rgb(52, 64, 85);
+    color: white;
+}
+
+p {
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
