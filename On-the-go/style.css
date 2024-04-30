@@ -1,8 +1,10 @@
+/* This is Universal Selector */
 * {
     background-color:rgb(38, 109, 211);
 
 }
 
+/* These are Element selectors */
 h1 {
     color: #ffffff;
 }
@@ -24,4 +26,28 @@ p {
 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+div {
+    border: 2px solid;
+    border-color: rgb(52, 64, 85);
+    height: 100px;
+    width: 100px;
+}
+/* These are called Id selectors */
+#box1 {
+    background-color: rgb(223, 194, 242);
+}
+
+#box2 {
+    background-color: rgb(166, 87, 219);
+}
+
+#box3 {
+    background-color: rgb(104, 32, 151);
+}
+
+#emoji {
+    font-size: 100px;
+    margin: 10px;
 }
