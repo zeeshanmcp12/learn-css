@@ -28,6 +28,10 @@ a {
     text-decoration: none;
 }
 
+#header {
+    font-size: x-large;
+}
+
 div {
     border: 2px solid;
     border-color: rgb(52, 64, 85);
@@ -50,4 +54,16 @@ div {
 #emoji {
     font-size: 100px;
     margin: 10px;
+}
+
+th {
+    font-size: larger;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+td {
+    font-size: large;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
