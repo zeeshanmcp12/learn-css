@@ -10,8 +10,12 @@
 
 .heading {
     color: rgb(255,0,0);
-
 }
+
+/* It also works */
+/* h1, h2, h3 {
+    color: green
+} */
 
 button {
     background-color: rgb(0,255,0);
