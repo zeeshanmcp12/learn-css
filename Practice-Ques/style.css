@@ -1,0 +1,18 @@
+* {
+    background-color:rgb(38, 109, 211);
+
+}
+
+#box {
+    color: #ffff;
+    background-color: blue;
+}
+
+.heading {
+    color: rgb(255,0,0);
+
+}
+
+button {
+    background-color: rgb(0,255,0);
+}
