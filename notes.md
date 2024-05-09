@@ -372,7 +372,7 @@ text-align: center;
   <div><p>This is inner div</p></div>
 </div>
 ```
-
+>Note: Kuch properties aisi hoti hain k jis main parent par jo styling apply karte hain, child par bhi same properties apply ho jati hain.
 >Note: Level 1 is complete here.
 
 ## Level 2
