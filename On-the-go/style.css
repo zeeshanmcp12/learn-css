@@ -32,23 +32,35 @@ header {
     font-size: x-large;
 }
 
-div {
+/* div {
+    border: 2px solid;
+    border-color: rgb(52, 64, 85);
+    height: 100px;
+    width: 100px;
+} */
+/* These are called Id selectors */
+#box1 {
+    background-color: rgb(223, 194, 242);
     border: 2px solid;
     border-color: rgb(52, 64, 85);
     height: 100px;
     width: 100px;
 }
-/* These are called Id selectors */
-#box1 {
-    background-color: rgb(223, 194, 242);
-}
 
 #box2 {
     background-color: rgb(166, 87, 219);
+    border: 2px solid;
+    border-color: rgb(52, 64, 85);
+    height: 100px;
+    width: 100px;
 }
 
 #box3 {
     background-color: rgb(104, 32, 151);
+    border: 2px solid;
+    border-color: rgb(52, 64, 85);
+    height: 100px;
+    width: 100px;
 }
 
 #emoji {
@@ -66,4 +78,28 @@ td {
     font-size: large;
     font-weight: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#heading_cent {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#outer {
+    font-size: 25px;
+    border: 2px solid;
+    border-color: rgb(52, 64, 85);
+    height: 100px;
+    width: 100px;
+    color: #ffffff;
+}
+
+#inner {
+    font-size: 10px;
+    border: 2px solid;
+    border-color: rgb(52, 64, 85);
+    height: 100px;
+    width: 100px;
+    color: bisque;
+
 }
