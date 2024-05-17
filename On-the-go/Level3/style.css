@@ -28,6 +28,8 @@ button {
     width: 100px;
     border: 2px solid black;    
     display: inline-block;
+    color: black;
+    text-align: center;
 }
 
 main {
@@ -39,4 +41,6 @@ main {
     margin-top: 500px;
     height: 60px;
     background-color: black;
+    text-align: center;
+    font-size: large;
 }
