@@ -955,6 +955,18 @@ div {
 
 #### sticky
 
+- to be added
+
+>Note: [unsplash.com](https://unsplash.com)
+
+### Background Image
+
+- `background-image`
+
+### Background Size
+
+- `background-size`
+
 ## Emmets
 
 - lorem
