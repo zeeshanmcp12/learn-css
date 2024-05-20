@@ -962,10 +962,33 @@ div {
 ### Background Image
 
 - `background-image`
+  - `background-image: url(image_name)`
 
 ### Background Size
 
 - `background-size`
+  - cover
+  - contain
+  - auto
+- `background-size: cover`
+- `background-size: contain`
+- `background-size: auto`
+
+#### Syntax For Background Image/Size
+
+```css
+#box1 {
+    background-image: url('kitten-image1.jpg');
+    background-size: cover;
+}
+
+#box2 {
+    background-image: url('kitten-image2.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+```
 
 ## Emmets
 
