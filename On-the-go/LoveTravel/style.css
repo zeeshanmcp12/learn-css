@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+
+#navbar {
+    height: 60px;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+#logo {
+    color: #f08804;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 300px;
+    color: white;
+    /* font-size: 20px; */
+    /* position: relative;
+    top: 10px; */
+
+}
+
+button {
+    background-color: #f08804;
+    color: white;
+    font-size: 18px;
+    /* position: relative;
+    top: 10px; */
+}
+
+input {
+    font-size: 18px;
+    /* position: relative;
+    top: 10px; */
+}
+
+div {
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#footer {
+    height: 60px;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    text-align: center;
+}
+
+#box1 {
+    background-image: url("../../assets/mecca-img2.jpg");
+    background-size: cover;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+#box2 {
+    background-image: url("../../assets/nature-image.jpg");
+    background-size: cover;
+    color: black;
+    font-size: x-large;
+    text-align: center;
+}
+
+#box3 {
+    background-image: url("../../assets/kitten-image2.jpg");
+    background-size: cover;
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    background-position: center;
+}
