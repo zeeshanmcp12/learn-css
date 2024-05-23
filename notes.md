@@ -955,7 +955,18 @@ div {
 
 #### sticky
 
-- to be added
+- Ye additional property hai jo user k scroll k according work karti hai. Means k agar ham kisi box ki position **sticky** set karden aur position ki value koi rakhen, let's say top:50px, tu ab user ki scrolling jese hi is box tak ayegi uski position top se 50px set ho jayegi.
+- Syntax
+  - Click [here](./Practice%20Set%205/style.css) for the syntax along with example.
+
+#### z-index
+
+- Hamare page par boxes overlap kar sakte hain. By default jo div pehle likha hai wo niche (under) chala jayega and jo bad main likha hai wo oper (above) chala jayega. But ham is cheez ko control kar sakte hain using **z-index** property.
+- By default har element ka z-index 0 hota hai.
+- **z-index** ki value positive main denge tu position oper ho jayegi means k wo element oper show hoga.
+- **z-index** ki value negative main dene se element (box) ki position niche ho jayegi.
+- Click [here](./CSS-Levels/level3/style.css) for syntax and example.
+
 
 >Note: [unsplash.com](https://unsplash.com)
 
