@@ -1000,6 +1000,41 @@ div {
 }
 ```
 
+## Level 4
+
+### Flexbox
+
+- Flexible Box Layout
+
+#### Flexbox model
+
+- Flex container
+- Flex Item
+- main axis - Horizontal/Vertical direction
+- cross axis - Horizontal/Vertical direction
+
+##### How to make container a *Flexbox*?
+
+- Set `display` property to `flex`
+
+##### Flexbox Direction
+
+- `flex-direction: row;` this is by default.
+- `flex-direction: row-reverse;`
+- `flex-direction: column;`
+- `flex-direction: column-reverse;`
+
+##### Flex Properties
+
+- justify-content: flex-start/flex-end/center/space-around/space-between/space-evenly
+  - space-around main left-most and right-most ki space center wali spaces se half hogi
+- flex-wrap
+- align-items
+- align-content
+
+>Note: Agar ham kisi container ko flex box bana denge tu us k andar jitne bhi items honge wo sab k sab container main hi apne ap fit karenge and bahar nahi niklenge.
+>Note: But ye us waqt tak hoga jab tak in k andar ka content allow kare. Means k jab tak font size exceed nahi kar raha us waqt tak usi container main fit hoga and jese hi item (div) ki height font-size se choti hogi then ab ye item (div) us main fit nahi hoga.
+
 ## Emmets
 
 - lorem
