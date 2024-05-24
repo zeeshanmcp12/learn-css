@@ -1064,6 +1064,24 @@ div {
 >Note: Agar ham kisi container ko flex box bana denge tu us k andar jitne bhi items honge wo sab k sab container main hi apne ap fit karenge and bahar nahi niklenge.
 >Note: But ye us waqt tak hoga jab tak in k andar ka content allow kare. Means k jab tak font size exceed nahi kar raha us waqt tak usi container main fit hoga and jese hi item (div) ki height font-size se choti hogi then ab ye item (div) us main fit nahi hoga.
 
+##### Flex Properties for Flex Item
+
+- `align-self`
+  - Ye us waqt work karti hai jab ham ye chahte hon k koi individual element ya box separately align ho na k container k saaray elements k sath.
+  - iski highest priority hoti hai as compare to jo ham container par apply karte hain.
+  - Means k agar hamne kisi individual element ko `align-self` ki property set kardi tu us element ki priority highest hogi.
+- `flex-shrink`
+  - Agar kisi element ko jaldi se shrink karwana hai tu uske factor ko 1 se bara kar sakte hain.
+  - Agar kisi element ko der se shrink karwana hai tu uske factor ko 1 se decrease kar sakte hain.
+  - Factor matlab hai k equally shrink ho raha hai ya dosre elements k comparison main kam ya zyada shrink ho raha hai.
+  - Agar ham ye chahte hain k element ki width bilkul bhi shrink na ho and jesi hai wesi hi rahay tu ham uski shrink property ko 0 set karte hain.
+    - `flex-shrink: 0`
+  - Differences:
+    - `flex-shrink: 0` - Element bilkul shrink nahi hoga
+    - `flex-shrink: 1` - Element equally shrink hoga
+    - `flex-shrink: 0.5` - Element slowly shrink hoga, means k dosray elements k comparison main kam shrink hoga
+- `flex-grow`
+
 ## Emmets
 
 - lorem

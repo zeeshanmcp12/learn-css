@@ -20,14 +20,16 @@ div {
     justify-content: center;
 } */
 
+/* align-item, align-content properties*/
 #container {
     height: 600px;
     width: 600px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
-    align-content: center;
+    justify-content: center;
+    /* align-items: flex-start; */
+    align-content: flex-start;
 }
 
 #box1 {
