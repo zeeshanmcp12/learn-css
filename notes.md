@@ -1031,6 +1031,35 @@ div {
 - flex-wrap
 - align-items
 - align-content
+  - `align-items` and `align-content` has to be revised for more clarity. There is little difference between both of them.
+  - Jab hamne flex k items ko wrap kiya ho and `align-items` se usko `flex-start` ya `center` karenge tu center space ajayegi because items wrapped hain.
+  - `align-content` ko use karne se wo space khatam ho jayegi.
+  - Syntax:
+
+```css
+div {
+    height: 50px;
+    width: 150px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#container {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+}
+#box1 {
+    background-color: aqua;
+}
+#box2 {
+    background-color: cadetblue;
+    height: 200px;
+}
+```
 
 >Note: Agar ham kisi container ko flex box bana denge tu us k andar jitne bhi items honge wo sab k sab container main hi apne ap fit karenge and bahar nahi niklenge.
 >Note: But ye us waqt tak hoga jab tak in k andar ka content allow kare. Means k jab tak font size exceed nahi kar raha us waqt tak usi container main fit hoga and jese hi item (div) ki height font-size se choti hogi then ab ye item (div) us main fit nahi hoga.
