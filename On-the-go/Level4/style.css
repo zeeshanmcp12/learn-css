@@ -1,0 +1,50 @@
+*{
+    text-align: center;
+}
+#container {
+    height: 400px;
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    /* align-content: flex-start; */
+}
+
+div {
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+/* With align-content, align-items and flex-wrap property  */
+/* #box2 {
+    background-color: rgba(100,255,200,0.75);
+    height: 200px;
+} */
+#box2 {
+    background-color: rgba(100,255,200,0.75);
+    /* height: 200px; */
+    /* flex-grow: 0.5; */
+    flex-shrink: 1; /* this value is a factor means k equally shrink hoga ya kam ya double*/
+}
+
+#box3 {
+    background-color: bisque;
+    /* align-self: flex-end; */
+}
+
+#box4 {
+    background-color: rgba(255,0,200,0.75);
+}
+
+#box5 {
+    background-color: chocolate;
+}
