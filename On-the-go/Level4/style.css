@@ -1,50 +1,42 @@
-*{
+* {
     text-align: center;
 }
+
 #container {
+    width: 800px;
     height: 400px;
-    width: 600px;
-    border: 2px solid black;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     /* flex-wrap: wrap; */
     /* align-items: center; */
     /* align-content: flex-start; */
 }
 
 div {
-    height: 100px;
-    width: 200px;
     border: 2px solid black;
     display: inline-block;
+    height: 50px;
+    width: 50px;
+    /* display: flex; */
 }
 
 #box1 {
-    background-color: aqua;
+    background-color: antiquewhite;
 }
 
-/* With align-content, align-items and flex-wrap property  */
-/* #box2 {
-    background-color: rgba(100,255,200,0.75);
-    height: 200px;
-} */
 #box2 {
-    background-color: rgba(100,255,200,0.75);
-    /* height: 200px; */
-    /* flex-grow: 0.5; */
-    flex-shrink: 1; /* this value is a factor means k equally shrink hoga ya kam ya double*/
+    background-color: burlywood;
 }
 
 #box3 {
-    background-color: bisque;
-    /* align-self: flex-end; */
+    background-color: chocolate;
 }
 
 #box4 {
-    background-color: rgba(255,0,200,0.75);
+    background-color: cornflowerblue;
 }
 
 #box5 {
-    background-color: chocolate;
+    background-color: blueviolet;
 }
