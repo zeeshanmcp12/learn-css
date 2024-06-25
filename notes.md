@@ -1081,6 +1081,37 @@ div {
     - `flex-shrink: 1` - Element equally shrink hoga
     - `flex-shrink: 0.5` - Element slowly shrink hoga, means k dosray elements k comparison main kam shrink hoga
 - `flex-grow`
+  - Is main ye hota hai k agar container ki width zyada ho or us container k flex items ki width kam ho tu ham jis flex item ki property `flex-grow` with any value for example `flex-grow:1` set karenge wo flex item expand ho kar us container ki saari jaga lelega.
+- Syntax
+
+```css
+#container {
+    border: 2px solid black;
+    height: 300px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+div {
+    border: 2px solid black;
+    /* display: flex; */
+    height: 100px;
+    width: 50px;
+}
+
+#box2 {
+    background-color: bisque;
+    height: 200px;
+    flex-grow: 2;
+}
+
+#box4 {
+    background-color: cadetblue;
+    flex-grow: 2;
+}
+```
 
 ## Emmets
 
@@ -1120,3 +1151,4 @@ div {
   - Webbed
 - Active Space
 - Passive Space
+- `list-style-type:none` this property is used to remove dots from list style type.

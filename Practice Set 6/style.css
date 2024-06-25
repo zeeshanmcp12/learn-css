@@ -1,0 +1,37 @@
+
+.navbar {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+
+}
+
+div {
+    background-color: bisque;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    display: inline; /* By default all items inside list item goes to separate line, that's why we set this value to `inline` so that it can become in single line*/
+}
+/* #container {
+    border: 2px solid black;
+    display: flex;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+}
+
+div {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+} */
