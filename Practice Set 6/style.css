@@ -1,34 +1,55 @@
 
 .navbar {
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: space-evenly; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 
+}
+
+#space_filler {
+    /* border: 1px solid black; */
+    position: relative;
+    left: 200px;
+    width: 250px;
 }
 
 div {
     background-color: bisque;
-    display: flex;
+    height: 50px;
+    /* display: flex; */
     /* flex-direction: row; */
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 a {
     text-decoration: none;
+    font-size: large;
+    color: black;
 }
 
 li {
     list-style-type: none;
-    display: inline; /* By default all items inside list item goes to separate line, that's why we set this value to `inline` so that it can become in single line*/
+    /* display: inline; By default all items inside list item goes to separate line, that's why we set this value to `inline` so that it can become in single line */
 }
-/* #container {
+#outer {
     border: 2px solid black;
     display: flex;
     height: 200px;
     width: 400px;
     justify-content: center;
+    align-items: center;
 }
 
+#inner {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    
+}
+
+/*
 div {
     border: 2px solid black;
     height: 100px;
