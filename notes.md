@@ -1113,6 +1113,35 @@ div {
 }
 ```
 
+### Media Query
+
+- Apne web page ko responsive banane k liye ham media queries use karte hain.
+- Media queries main ham range define karte hain jis main ham width batatay hain.
+- For example, agar width 600px ho tu font size etc change ho jaye
+- Syntax
+
+```css
+@media (width: 600px) {
+  div {
+    font-size: large
+  }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  div {
+    font-size: larger
+  }
+}
+```
+
+#### Practice Set 7
+
+- Add a media query to implement the following:
+  - the color of a div changes to green for viewport width less than 300px
+  - the color of a div changes to pink for width between 300px & 400px
+  - the color of a div changes to red for width between 400px & 600px
+  - the color of a div changes to blue for width above 600px
+
 ## Emmets
 
 - lorem

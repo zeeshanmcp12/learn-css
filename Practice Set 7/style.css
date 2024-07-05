@@ -1,0 +1,41 @@
+#container {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: bisque;
+    text-align: center;
+    align-content: center;
+}
+
+@media (max-width: 300px) {
+    #container {
+        background-color: green;
+        color: white;
+        font-size: larger;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    #container {
+        background-color: pink;
+        font-size: larger;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    #container {
+        background-color: red;
+        color: white;
+        font-size: large;
+
+    }
+}
+
+@media (min-width: 600px) {
+    #container {
+        background-color: blue;
+        color: white;
+        font-size: large;
+
+    }
+}
