@@ -1113,6 +1113,13 @@ div {
 }
 ```
 
+##### Difference b/w align-items and justify-content
+- `justify-content`
+  - `Main-axis` (left-to-right) main rehte hoe agar content (items) ko center align karna hai tu us k liye ham `justify-content` use karenge.
+- `align-items`
+  - `Cross-axis` top-to-bottom main rehte hoe content (items) ko center align karna hai tu k liye ham `align-items` use karenge.
+
+
 ### Media Query
 
 - Apne web page ko responsive banane k liye ham media queries use karte hain.
