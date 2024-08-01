@@ -1149,6 +1149,33 @@ div {
   - the color of a div changes to red for width between 400px & 600px
   - the color of a div changes to blue for width above 600px
 
+## Level 5
+
+### Transition
+
+- transition-property - element ki jitni bhi properties hain un sab par transition apply karna.
+- transition-duration - transition kitni der tak us element par apply rahegi.
+- transition-timing-function - is main different functions hain, jese k ease-in, ease-out, steps, etc
+- transition-delay - transition kitni der bad apply hogi. For example, agar hamne `div` ko `hover` set kiya hai tu jab ham mouse ko div par hover karenge to 2 second bad transition apply hoga.
+
+#### Transition Shorthand
+
+- property name | duration | timing-function | delay
+  - Syntax `all 2s ease-in 1s`
+
+#### State change
+
+- Pseudo class
+  - Syntax: div:hover{ color:red}
+
+#### CSS Transform
+
+- elements ko 2D and 3D form main rotate karna
+- Chezon ko rotate karna
+- Chezon ko size main bara karna, small karna
+- Syntax `transform: rotate`
+- Syntax `transform: rotate(45deg)` - 45 deg rotate
+
 ## Emmets
 
 - lorem
