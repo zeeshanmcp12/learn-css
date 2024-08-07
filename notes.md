@@ -1202,6 +1202,18 @@ div {
   - Syntax: `transform: scaleX(3)
   - Syntax: `transform: scaleY(5)
 
+##### CSS Transform - translate
+
+- translate ka matlab hai k ham element ko jis axis (x and y) main jitne pixel bhi set karenge, hamara element utna hi screen par move karega.
+- Syntax
+  - `transform: translate(200px); - X axis main move karega
+
+##### CSS Transform - skew
+
+- skew main element ki shape change ho jati hai.
+  - Syntax:
+    - `transform: skew(40deg);`
+
 ## Emmets
 
 - lorem
