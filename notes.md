@@ -1153,9 +1153,9 @@ div {
 
 ### Transition
 
-- transition-property - element ki jitni bhi properties hain un sab par transition apply karna.
-- transition-duration - transition kitni der tak us element par apply rahegi.
-- transition-timing-function - is main different functions hain, jese k ease-in, ease-out, steps, etc
+- transition-property - element ki jitni bhi properties hain un sab par transition apply karna. Jese k `font-size`, `width` etc
+- transition-duration - transition kitni der tak us element par apply rahegi. For example: 2s / 4ms etc
+- transition-timing-function - is main different functions hain, jese k ease-in / ease-out / linear / steps etc
 - transition-delay - transition kitni der bad apply hogi. For example, agar hamne `div` ko `hover` set kiya hai tu jab ham mouse ko div par hover karenge to 2 second bad transition apply hoga.
 
 #### Transition Shorthand
@@ -1170,11 +1170,37 @@ div {
 
 #### CSS Transform
 
+##### CSS Transform - Rotate
+
 - elements ko 2D and 3D form main rotate karna
 - Chezon ko rotate karna
 - Chezon ko size main bara karna, small karna
-- Syntax `transform: rotate`
-- Syntax `transform: rotate(45deg)` - 45 deg rotate
+  - Syntax `transform: rotate`
+    - Syntax `transform: rotate(45deg)` - 45 deg rotate
+- Agar ham 3D form main rotate karna chahte hain tu us k liye syntax ye hoga:
+  - Syntax: `rotate: x 60deg`
+
+##### Important about x axis, y axis and z axis
+
+- x axis horizontal jata hai (left to right)
+- y axis vertical jata hai (top to bottom)
+- z axis bahar ki taraf araha hota hai
+
+##### CSS Transform - Scale
+
+- Scale ka matlab hai koi bhi element kitna bara hota hai (means k scale hota hai)
+- scale(1) - iska matlab hai k na bara hona na chota
+- scale(2) - jo size abhi hai uska double ho jana
+- scale(0.5) - jo size abhi hai us se half ho jana
+- Syntax:
+  - `transform: scale(2);`
+  - `transform: scale(0.5);`
+  - `transform: scale(3);`
+- Agar x and y axis, dono k around scale karna hai tu syntax ye hoga:
+  - Syntax: `transform:scale(2,3)
+- Ham individually bhi scale property ko use kar sakte hain with transform
+  - Syntax: `transform: scaleX(3)
+  - Syntax: `transform: scaleY(5)
 
 ## Emmets
 
