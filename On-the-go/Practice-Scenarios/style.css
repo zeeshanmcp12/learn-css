@@ -30,6 +30,7 @@ li {
     transition-property: background-color, color;
     transition-duration: 1s;
     transition-timing-function: ease;
+    cursor: pointer;
 }
 
 #submit_btn:hover {
@@ -64,3 +65,31 @@ li {
     transform: scale(1.2);
     margin: 25px;
 }
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
