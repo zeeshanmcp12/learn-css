@@ -1114,6 +1114,7 @@ div {
 ```
 
 ##### Difference b/w align-items and justify-content
+
 - `justify-content`
   - `Main-axis` (left-to-right) main rehte hoe agar content (items) ko center align karna hai tu us k liye ham `justify-content` use karenge.
 - `align-items`

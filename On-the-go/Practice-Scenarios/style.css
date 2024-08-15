@@ -1,95 +1,60 @@
 
-#container {
-    height: 70px;
-    /* width: 200px; */
+.navbar {
     border: 2px solid black;
+    height: 50px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     font-size: x-large;
 }
 
 a {
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 
-a:hover {
-    transition-property: color;
-    transition-delay: 2s;
-    transition-timing-function: ease-in;
+a:hover{
     text-decoration: underline;
+
 }
 
-li {
-    font-size: x-large;
-}
-
-#submit_btn {
-    font-size: x-large;
-    transition-property: background-color, color;
-    transition-duration: 1s;
-    transition-timing-function: ease;
-    cursor: pointer;
-}
-
-#submit_btn:hover {
-
-    background-color: brown;
-    color: aliceblue;
-    /* transform: scale(1.5); */
-}
-
-#gallery {
+.flex-container {
     border: 2px solid black;
-    height: 250px;
-    width: 1500px;
+    height: 400px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
-.img_container{
+
+.img-container {
     height: 200px;
     width: 200px;
     border: 2px solid black;
-    background-image: url(../../assets/kitten-image1.jpg);
     background-size: contain;
-    transition-property: all;
+    background-position: center;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    transition-duration: 200ms;
+}
+
+.img-container:hover {
+    transform: scale(1.5);
+}
+
+#btn {
+    transition-property: font-size, border-radius;
     transition-timing-function: ease-in;
-    transition-duration: 1s;
-    /* transition-delay: 5s; */
+    transition-duration: 300ms;
+    margin-top: 5px;
+    font-size: large;
 }
 
-.img_container:hover {
-    transform: scale(1.2);
-    margin: 25px;
+#btn:hover {
+    background-color: brown;
+    color: antiquewhite;
+    border-radius: 5px;
+    font-size: x-large;
 }
 
-.tooltip-container {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-  }
-  
-  .tooltip-text {
-    visibility: hidden;
-    width: 120px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-  
-  .tooltip-container:hover .tooltip-text {
-    visibility: visible;
-    opacity: 1;
-  }
