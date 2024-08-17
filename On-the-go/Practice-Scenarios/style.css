@@ -58,3 +58,42 @@ a:hover{
     font-size: x-large;
 }
 
+#arrow-icon {
+    font-size: xx-large;
+    text-align: center;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+
+}
+
+#arrow-icon:active {
+    transform: rotate(180deg);
+
+}
+#btn-click-me {
+    transition-property: transform, position;
+    transition-timing-function: ease-in;
+    transition-duration: 500ms;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#btn-click-me:hover {
+    transform: scale(1.5);
+}
+
+#rightandleft {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    /* transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: 500ms; */
+}
+
+#rightandleft:hover {
+    transform: translate(1344px);
+
+}
