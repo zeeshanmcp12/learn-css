@@ -1,4 +1,6 @@
-#container {
+/* =============================================== */
+/* Transitions */
+/* #container {
     height: 200px;
     width: 200px;
     border: 2px solid black;
@@ -8,9 +10,9 @@
     font-size: larger;
     transition-property: all;
     transition-duration: 2s;
-    /* transition-timing-function: ease; */
+    transition-timing-function: ease;
     transition-timing-function: steps(3);
-    /* transition-delay: 2s; */
+    transition-delay: 2s;
     position: absolute;
     top: 100px;
     left: 200px;
@@ -25,11 +27,11 @@ div {
     text-align: center;
     align-content: center;
     font-size: larger;
-    /* transition-property: all;
+    transition-property: all;
     transition-duration: 2s;
-    transition-timing-function: ease; */
-    /* transition-timing-function: steps(3); */
-    /* transition-delay: 2s; */
+    transition-timing-function: ease;
+    transition-timing-function: steps(3);
+    transition-delay: 2s;
     position: absolute;
     top: 400px;
     left: 200px;
@@ -41,7 +43,48 @@ div {
     color: white;
 }
 
-/* #container:active{
+#container:active{
     background-color: cadetblue;
     color: white;
 } */
+
+/* =============================================== */
+/* Transitions */
+
+/* =============================================== */
+/* Animations */
+
+#navbar {
+    height: 70px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+/* This is called pseudo-state */
+a:hover {
+    /* text-decoration: underline; with transitions*/
+    animation-name: href-underline;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-iteration-count: 10;
+    animation-duration: 1s;
+}
+
+@keyframes href-underline {
+    from {
+        text-decoration: none;
+        color:black;
+    }
+    to {
+        text-decoration: underline;
+    }
+}

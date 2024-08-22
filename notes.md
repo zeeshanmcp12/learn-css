@@ -1214,6 +1214,47 @@ div {
   - Syntax:
     - `transform: skew(40deg);`
 
+### Animations
+
+- It works simlar to transition but add additional features to make the animations more creative
+
+#### Keyframe in Animations
+
+- Jis tarah hamne responsiveness k liye media queries use ki thin usi tarah animations use karne se pehle hame uski templating/blueprint create karne hote hain.
+- Syntax
+
+```css
+@keyframe animation_name {
+  from {css_property:value}
+  to {css_property:value}
+}
+
+/* Create template */
+@keyframe colorAnimate {
+  from {background-color: aquamarine}
+  to {background-color: red}
+}
+
+/* Use Animation */
+#box-for-animation {
+  
+}
+```
+
+#### Animations Properties
+
+- In previous step, we created a template (or we call it keyframe) to use it for animation. Now, we will utilize this template.
+- Animation template ko use karne k liye CSS main kuch properties hain:
+  - animation-name
+    - Yahan us template (keyframe) ka name use hoga jo hamne in previous step create kiya hai
+  - animation-timing-function
+  - animation-duration
+  - animation-delay
+  - animation-directon
+  - animation-iteration-count
+
+#### % in Animation
+
 ## Emmets
 
 - lorem
