@@ -63,23 +63,23 @@ div {
     align-items: center;
 }
 
-a {
+/* a {
     text-decoration: none;
     color: black;
     font-size: x-large;
-}
+} */
 
 /* This is called pseudo-state */
-a:hover {
-    /* text-decoration: underline; with transitions*/
+/* a:hover {
+    text-decoration: underline; with transitions
     animation-name: href-underline;
     animation-timing-function: linear;
     animation-direction: normal;
     animation-iteration-count: 10;
     animation-duration: 1s;
-}
+} */
 
-@keyframes href-underline {
+/* @keyframes href-underline {
     from {
         text-decoration: none;
         color:black;
@@ -87,4 +87,29 @@ a:hover {
     to {
         text-decoration: underline;
     }
+} */
+
+/* Adding underline effect which appears when hovered over */
+a {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    position: relative;
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover::before {
+    visibility: visible;
+    width: 100%;
 }
