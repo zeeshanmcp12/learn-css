@@ -1,3 +1,23 @@
+#banner-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#banner {
+    height: 70px;
+    border: 2px solid black;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    background-color: aquamarine;
+    transform: skewX(20deg);
+    border-radius: 15px;
+}
+
 
 .navbar {
     border: 2px solid black;
@@ -21,11 +41,15 @@ a:hover{
 
 .flex-container {
     border: 2px solid black;
-    height: 400px;
+    height: 500px;
+    /* width: 600px; */
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
     align-items: center;
+    /* align-content: flex-start; */
+    /* flex-grow: 2; */
 }
 
 .img-container {
