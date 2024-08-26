@@ -1,79 +1,27 @@
-
-#container:hover {
-    background-color: burlywood;
-    color: black;
-    font-size: xx-large;
-    width: 250px;
-    
-
-}
-
-#container {
-    height: 200px;
-    width: 200px;
+#flex-container {
+    height: 400px;
+    width: 400px;
     border: 2px solid black;
-    background-color: brown;
-    font-size: larger;
-    color: white;
-    align-content: center;
-    text-align: center;
-    transition-property: width, font-size;
-    transition-timing-function: ease;
-    transition-duration: 1s;
-    /* transition-delay: 3ms; */
-    /* transform: rotate(45deg); */
-    position: absolute;
-    top: 100px;
-    transform: rotate(0deg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-
-#container1 {
-    height: 200px;
-    width: 200px;
+.box-for-animation {
     border: 2px solid black;
-    background-color: brown;
-    color: white;
-    text-align: center;
-    align-content: center;
-    position: absolute;
-    top: 400px;
-    left: 300px;
-    /* transform: rotate(45deg); */
-    /* rotate: x 40deg; */
-    /* rotate: y 100deg; */
-    font-size: x-large;
-    transform: scaleY(2);
-    transition: all;
-    transition-duration: 1s;
-    transition-timing-function: ease-in;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
     
 }
 
-#container1:hover{
-    transform: scaleX(1);
+.box-for-animation:hover {
+    animation-name: boxAnimator;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite;
 }
 
-#container2 {
-    height: 200px;
-    width: 200px;
-    border: 2px solid black;
-    position: relative;
-    left: 600px;
-    text-align: center;
-    align-content: center;
-    background-color: aqua;
-    font-size: xx-large;
-    transition: all;
-    transition-timing-function: ease-in;
-    transition-duration: 2s;
-    
-}
-
-#container2:hover{
-    /* transform: translate(200px); */
-    /* transform: translateY(200px); */
-    /* transform: translateY(-200px); */
-    /* transform: translateX(-200px); */
-    transform: skew(40deg);
-
+@keyframes boxAnimator {
+    from { background-color: aquamarine;}
+    to { background-color: blueviolet;}
 }
