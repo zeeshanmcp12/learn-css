@@ -11,17 +11,50 @@
     height: 100px;
     width: 100px;
     background-color: aquamarine;
+    animation-name: boxPositionAnimator;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     
 }
 
 .box-for-animation:hover {
     animation-name: boxAnimator;
     animation-timing-function: ease-in-out;
-    animation-duration: 0.1s;
+    animation-duration: 0.5s;
+    animation-direction: reverse;
     animation-iteration-count: infinite;
 }
 
 @keyframes boxAnimator {
-    from { background-color: aquamarine;}
-    to { background-color: blueviolet;}
+    from { background-color: white;}
+    to { background: linear-gradient(to right, red,orange,yellow,green,blue,violet);}
+}
+
+@keyframes boxPositionAnimator {
+    from {scale: 0;}
+    to {scale: 1;}
+}
+
+#moving-ball {
+    margin-top: 10px;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    left: 0px;
+    animation-name: boxMovingBall;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes boxMovingBall {
+    from {left: 0;}
+    to {left: 400px}
+
+    
 }

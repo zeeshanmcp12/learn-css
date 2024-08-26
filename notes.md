@@ -1251,7 +1251,13 @@ div {
   - animation-duration
   - animation-delay
   - animation-directon
+    - jo bhi direction set karenge usi k according animation chalegi.
+    - For example
+      - `animation-direction: normal` - from se to wali animation
+      - `animation-direction: reverse` - to se from wali animation
   - animation-iteration-count
+    - For example
+      - `animation-iteration-count: infinite`
 
 #### % in Animation
 
