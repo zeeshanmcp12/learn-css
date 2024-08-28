@@ -1253,13 +1253,46 @@ div {
   - animation-directon
     - jo bhi direction set karenge usi k according animation chalegi.
     - For example
-      - `animation-direction: normal` - from se to wali animation
-      - `animation-direction: reverse` - to se from wali animation
+      - `animation-direction: normal` - `from` se `to` wali animation
+      - `animation-direction: reverse` - `to` se `from` wali animation
   - animation-iteration-count
     - For example
       - `animation-iteration-count: infinite`
 
+#### Animation Shothand
+
+- Syntax:
+  - `animation: name duration timing-function delay iteration direction`
+  - `animation: boxAnimator 3s linear 1 infinite/any_number normal/reverse`
+
 #### % in Animation
+
+- Jab ham kisi element par animation apply karte hain tu uska matlab ye hota hai k ham uski state change kar rahe hain.
+  - Jab kisi element ki state change hogi tu initially wo 0% hoga and jab animation complete ho jayegi tu wo us element ki state 100% ho jayegi.
+  - Yehi % (percentage) ka concept hai.
+- Ham Animation ki templating karte waqt `from` or `to` k bajaye, `%` ka use kar sakte hain.
+- `0%` ka matlab hai k animation apply hona start hogi
+- `100%` ka matlab hai k animation completely apply hogayi
+- ham `0%` to `100%` k between bhi koi state add kar sakte hain. For example:
+
+```css
+
+@keyframes boxAnimator {
+  0% {background-color: violet}
+  50% {background-color: orange}
+  100%{background-color: aquamarine}
+}
+
+@keyframes colorChangeAnimation {
+    0% {background-color: red;}
+    14% {background-color: orange;}
+    28% {background-color: yellow;}
+    42% {background-color: green;}
+    56% {background-color: blue;}
+    70% {background-color: indigo;}
+    100% {background-color: violet;}
+}
+```
 
 ## Emmets
 

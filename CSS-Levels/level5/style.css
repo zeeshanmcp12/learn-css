@@ -90,7 +90,7 @@ div {
 } */
 
 /* Adding underline effect which appears when hovered over */
-a {
+/* a {
     text-decoration: none;
     color: black;
     font-size: x-large;
@@ -112,4 +112,39 @@ a::before {
 a:hover::before {
     visibility: visible;
     width: 100%;
+} */
+
+#moving-ball{
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+    font-size: x-large;
+    position: relative;
+    animation: colorChangeAnimation;
+}
+
+#moving-ball:active {
+    animation: movingBall 3s linear alternate infinite;
+}
+
+#moving-ball:hover {
+    animation: colorChangeAnimation 1s linear normal infinite;
+}
+
+@keyframes movingBall {
+    from {left: 0px}
+    to {left: 300px}
+}
+
+@keyframes colorChangeAnimation {
+    0% {background-color: red;}
+    14% {background-color: orange;}
+    28% {background-color: yellow;}
+    42% {background-color: green;}
+    56% {background-color: blue;}
+    70% {background-color: indigo;}
+    100% {background-color: violet;}
 }
