@@ -1294,6 +1294,23 @@ div {
 }
 ```
 
+#### Practice Set 8
+
+- Create a simple loader using CSS
+  - Step 1: Create a div with circular shape & a thick border from one end (top/bottom/left/right)
+  - Step 2: To make it spin create an animation which transforms it from 0deg to 360deg
+  - Step 3: Add the animation property to the loader with infinite duration.
+
+##### Solution
+
+- Click [here](./Practice%20Set%208/style.css) to see the solution
+
+>Note: Here, we've completed the basics of CSS.
+
+## Project - Amazon Clone
+
+- Create Amazon Clone
+
 ## Emmets
 
 - lorem
