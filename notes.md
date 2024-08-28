@@ -1311,6 +1311,27 @@ div {
 
 - Create Amazon Clone
 
+### Fontawesome
+
+- To get free icons
+- Import fontawesome css in your project and add the cdn link to your html file
+  - Once imported, we can use different icons in our code without having to download it in our local system.
+
+### Project Base Setup
+
+- Create HTML file
+- Create CSS file
+- Link CSS file with HTML
+- Import fontawesome cdn in HTML file
+- set the margin of body to 0
+- set font family with what your like.
+- set border to `border-box`. kisi element k border ko `border-box` set karne ka matlab ye hai k element ko jitni bhi padding milay ya jitna bhi border size us element ko mile wo uski height/width k andar consider ho naa k bahar.
+  - For example, agar hamne kisi element ki heigh/width 100px set or usko 2px ka border diya tu us element ki total height/width 104px hogi. Because 2 2 pixels top/bottom and 2 2 pixels left/right se usko mil jayenge.
+  - Iska matlab ye hoa k border set karne se wo border us element k outside consider hota hai.
+  - `border-box` property set karne se ye faida hoga k wo border ka size element k andar consider hoga.
+  - combined example
+  - `* {margin: 0, font-family: Arial, border:border-box}`
+
 ## Emmets
 
 - lorem
