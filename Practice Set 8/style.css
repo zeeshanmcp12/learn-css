@@ -1,0 +1,48 @@
+#circle {
+    /* border: 10px solid black; */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    animation: loader 2s linear normal infinite;
+    border-top: 4px dotted black;
+    /* text-decoration: dashed; */
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+        color: black;
+        visibility: hidden;
+    }
+    20% {
+        transform: rotate(72deg);
+        color: black;
+        opacity: 25%;
+    }
+    40% {
+        transform: rotate(144deg);
+        color: black;
+        opacity: 50%;
+    }
+    65% {
+        transform: rotate(216deg);
+        color: black;
+        opacity: 75%;
+    }
+    80% {
+        transform: rotate(288deg);
+        color: black;
+        opacity: 100%;
+    }
+    100% {
+        transform: rotate(360deg);
+        color: black;
+        opacity: 100%;
+    }
+    /* 100%{
+        transform: rotate(360deg);
+    } */
+    
+}
