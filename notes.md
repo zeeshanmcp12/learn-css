@@ -1331,6 +1331,9 @@ div {
   - `border-box` property set karne se ye faida hoga k wo border ka size element k andar consider hoga.
   - combined example
   - `* {margin: 0, font-family: Arial, border:border-box}`
+- Set font-size in root elemene format, for example 2rem.
+  - rem ka matlab hai root element.
+  - Iska benefit ye hoga k font-size root element k according work karega, agar root element (like body) ka size kam hoga tu is text ka size automatically adjust ho jayega.
 
 ## Emmets
 
