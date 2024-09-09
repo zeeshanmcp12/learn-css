@@ -160,3 +160,35 @@
     margin: 0;
     padding: 0;
 }
+
+/* Second Panel after nav bar */
+
+.panel {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #232F3E;
+    height: 39px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.panel-options a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    height: 28px;
+    align-content: center;
+}
+
+.panel-options {
+    border: none;
+    width: 85%;
+}
+
+.panel-gaming-store {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
