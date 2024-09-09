@@ -1335,6 +1335,13 @@ div {
   - rem ka matlab hai root element.
   - Iska benefit ye hoga k font-size root element k according work karega, agar root element (like body) ka size kam hoga tu is text ka size automatically adjust ho jayega.
 
+#### Combined Selectors
+
+- `.nav-cart img`
+  - Ye ham us waqt kar sakte hain jab hame sirf un img elements par styling apply karni hon jo `.nav-cart` class k andar hain.
+  - Means k pehle parent class ka name `.nav-cart`
+  - and then us k andar jitni 
+
 ## Emmets
 
 - lorem
