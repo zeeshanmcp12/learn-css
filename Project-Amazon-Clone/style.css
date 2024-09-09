@@ -70,7 +70,7 @@
     /* border: none; */
     border-radius: 4px;
     height: 40px;
-    width: 900px;
+    width: 65%;
     background-color: #FFFFFF;
     color: #0F1111;
     display: flex;
@@ -158,5 +158,6 @@
 }
 
 .nav_cart_text {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
