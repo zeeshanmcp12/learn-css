@@ -243,7 +243,7 @@
 }
 
 .items-flex-container-containers div {
-    background-image: url('./item-container-image.jpg');
+    /* background-image: url('./box_image_1_toys.jpg'); */
     background-position: center;
 }
 
@@ -274,3 +274,15 @@
     padding: 20px;
 }
 
+/* Footer */
+
+.foot-panel-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #37475A;
+    color: white;
+    font-size: 0.9rem;
+    padding: 10px;
+}
