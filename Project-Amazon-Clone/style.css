@@ -9,22 +9,15 @@
     height: 60px;
     background-color: #0F1111;
     color: white;
-    /* border: 1px solid black; */
     display: flex;
-    /* flex-direction: row; */
-    /* align-content: center; */
     align-items: center;
     justify-content: space-evenly;
-
-
 }
 
 .nav-logo {
     height: 50px;
     width: 100px;
     margin: 5px;
-    
-
 }
 
 .logo {
@@ -33,7 +26,6 @@
     background-image: url('amazon-2-logo.svg');
     background-size: cover;
     background-position: center;
-    
 }
 
 .border {
@@ -67,7 +59,6 @@
 }
 
 .nav-search-bar {
-    /* border: none; */
     border-radius: 4px;
     height: 40px;
     width: 65%;
@@ -205,8 +196,6 @@
 } */
 
 .items-flex-container {
-    /* border: 2px solid black; */
-    /* height: 600px; */
     width: 1450px;
     position: absolute;
     top: 370px;
@@ -243,7 +232,6 @@
 }
 
 .items-flex-container-containers div {
-    /* background-image: url('./box_image_1_toys.jpg'); */
     background-position: center;
 }
 
@@ -254,6 +242,7 @@
 
 .img-container:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .body-overlay {
@@ -275,7 +264,7 @@
 }
 
 /* Footer */
-
+/* Foot Panel 1- Back to Top */
 .foot-panel-1 {
     display: flex;
     justify-content: center;
@@ -287,9 +276,14 @@
     padding: 8px;
 }
 
+.foot-panel-1:hover{
+    cursor: pointer;
+    background-color: #485769;
+}
+
+/* Foot Panel 2 - Site Links */
 .foot-panel-2 {
-    height: 500px;
-    /* padding: 0 50px; */
+    height: 400px;
     background-color: #232F3E;
     color: white;
     display: flex;
@@ -304,9 +298,60 @@ ul a {
     line-height: 1.8rem;
 }
 
+ul a:hover {
+    text-decoration: underline;
+}
+
+
 ul p {
     font-size: 1rem;
     font-weight: 700;
     padding-top: 50px;
     padding-bottom: 5px;
+    line-height: 2rem;
+}
+
+/* Foot Panel 3 - Amazon Logo */
+.foot-panel-3{
+    height: 90px;
+    background-color: #232F3E;
+    border-top: 0.5px solid #3A4553;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel-3-logo {
+    height: 100px;
+    width: 120px;
+    cursor: pointer;
+}
+
+/* Foot Panel 4 - Customer Rights Copyright */
+.foot-panel-4 {
+    background-color: #131A22;
+    color: white;
+    height: 100px;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+.foot-panel-4-options {
+    padding-top: 25px;
+}
+
+.foot-panel-4-options a {
+    text-decoration: none;
+    color: white;
+    /* font-size: 0.95rem; */
+    padding-right: 0.7rem;
+}
+
+.foot-panel-4-options a:hover {
+    text-decoration: underline;
+}
+
+/* Foot Panel 4 - Copyright */
+.foot-panel-4-copyright {    
+    padding-top: 5px;
 }
