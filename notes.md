@@ -3,10 +3,31 @@
 ## Level 1
 
 - HTML - Structure/Layout
-- CSS - Style (Cascading Style Sheet)
+- CSS - Style (Cascading StyleSheet)
   - It's a language to do styling on a webpage.
   - It is used to describe the style of a document.
+  - Cascading:
+    - Cascading is something about overriding styles or applying set of rules.
+    - Is simple words, when we apply styling on HTML element, it does "cascade (override)" it and not change it.
+    - Cascade algorithm decides which styling takes precedence such as, Inline, Internal (style tag), or external (separate stylesheet file)
+    - Cascading works from top to bottom, which means last defined rule take precedence when elements have same specificity (elements same hon). For example, see the code below:
+      - red color will be applied on button.
 - JS - Logic
+
+```css
+button {
+  background-color: grey;
+}
+
+button {
+  background-color: green;
+}
+
+button {
+  background-color: red;
+}
+
+```
 
 ### Basic Syntax
 
