@@ -1402,3 +1402,7 @@ div {
 - Active Space
 - Passive Space
 - `list-style-type:none` this property is used to remove dots from list style type.
+
+## Specificity Alog
+
+- jo chez jitni zyada specific hogi usko utna hi weight milega, means k uski priority utni hi zyada hogi.
