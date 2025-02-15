@@ -1026,6 +1026,7 @@ div {
 ### Flexbox
 
 - Flexible Box Layout
+- By default, all child elements in flex are on main axis.
 
 #### Flexbox model
 
@@ -1048,9 +1049,11 @@ div {
 ##### Flex Properties
 
 - justify-content: flex-start/flex-end/center/space-around/space-between/space-evenly
+  - it works on main-axis.
   - space-around main left-most and right-most ki space center wali spaces se half hogi
-- flex-wrap
 - align-items
+  - it works on cross-axis.
+- flex-wrap
 - align-content
   - `align-items` and `align-content` has to be revised for more clarity. There is little difference between both of them.
   - Jab hamne flex k items ko wrap kiya ho and `align-items` se usko `flex-start` ya `center` karenge tu center space ajayegi because items wrapped hain.
@@ -1406,3 +1409,6 @@ div {
 ## Specificity Alog
 
 - jo chez jitni zyada specific hogi usko utna hi weight milega, means k uski priority utni hi zyada hogi.
+  - inline stylying ki priority zyada hogi
+  - internal styling (`<style></style>`) ki us se kam hogi.
+  - external file ki priority us se kam hogi.
